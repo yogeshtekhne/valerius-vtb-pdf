@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>TsVtbPdfViewer</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.21.7.js"></script>
+  <script src="/assets/js/vtb-messenger.js"></script>
+  <link rel="stylesheet" href="/assets/css/ckeditor5.css" media="screen">
+  <!-- <link rel = "stylesheet" type="text/css" media="print" href="/assets/css/print.css"> -->
+  <style>
+    app-template {
+      display: block;
+      max-width: 796.8px;
+      margin: 0 auto;
+      visibility: hidden;
+    }
+
+    vtb-element {
+      display: block;
+    }
+
+    /*[data-vtb-object-id] {
+      line-height: 0;
+    }*/
+
+    [data-vtb-object-id]:hover {
+      box-shadow: inset 0px 0px 5px 0px rgba(128,128,128,0.4);
+    }
+
+    body > .ck-body > .ck-toolbar-container {
+      position: fixed;
+      bottom: 0 !important;
+      left: 0 !important;
+      width: 100% !important;
+      top: auto !important;
+    }
+
+    .vtb-text-content > p:first-child {
+      display: inline;
+    }
+
+    @media print {
+      body, .page {
+        margin: 0 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>

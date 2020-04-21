@@ -1,0 +1,5 @@
+<div #inputElement id="inputElement">
+  <app-template-container *ngIf="mode === 'template-edit'" class="pdf-wrapper" (componentReady)="componentReady($event)"></app-template-container>
+  <div #vc *ngIf="mode === 'text-edit'"></div>
+</div>
+<div [innerHTML]="output" #outputElement class="pdf-wrapper" id="outputElement"></div>

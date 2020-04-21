@@ -1,0 +1,33 @@
+/* @media screen {
+    p {
+        color: red !important;
+    }
+ }
+
+ @media print {
+    p {
+        color: green !important;
+    }
+ } */
+ @media screen, print {
+   body {
+    /* color: green !important; */
+    -webkit-print-color-adjust: exact;
+ }
+ @page {
+    /* size: 8in 20in; */
+    size:A4 portrait;
+    /* size: portrait; */
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0;
+    -webkit-print-color-adjust: exact;
+}
+
+ /* footer {
+     display: none;
+ } */
+
+ }

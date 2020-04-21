@@ -1,0 +1,17 @@
+{
+  "dataTransformer": {
+    "customFileLocation": "customTransforms",
+    "methods": [
+      {"function": "test3", "params": {"test3": "test3a"}},
+      {"function": "getExtraFields", "params": {}},
+      {"function": "removeolPrices", "params": {}},
+      {"function": "parseDestinationContent", "params": {}},
+      {"function": "parsePracticalInformation", "params": {}},
+      {"function": "getMapPoints", "params": {}},
+      {"function": "getdailyItinerary", "params": {}},
+      {"function": "addIconChar", "params": {}},
+      {"function": "coverImage", "params": {}}
+    ],
+    "startWithEmptyObject": false
+  }
+}
