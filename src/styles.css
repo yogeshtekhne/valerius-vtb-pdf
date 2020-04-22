@@ -1,0 +1,11 @@
+.page,
+.dynamic-pages {
+  box-shadow: 0 0 0 0.75pt #d1d1d1, 0 0 3pt 0.75pt #ccc;
+  padding-bottom: 140.9638554216867%;
+  height: 0;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 15px;
+  background-color: white;
+  page-break-after: always;
+}
