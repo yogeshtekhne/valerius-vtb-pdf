@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
 /* @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"); */
 
@@ -20,8 +19,11 @@ body {
   font-size: 14px;
   line-height: 1.4;
   overflow-x: hidden;
+  background: #efeff0;
 }
-
+#inputElement[_ngcontent-c1] {
+  display: none;
+}
 .pdf-wrapper, #inputElement > * {
   display: block;
   max-width: 796.8px;
@@ -1083,6 +1085,7 @@ header img {
   padding: 15px;
   width: 100%;
   border-top: 5px solid #ee7203;
+  border-top: none;
 }
 
 .home-discover .home-family {
@@ -3211,125 +3214,4 @@ header img {
    -webkit-print-color-adjust: exact;
 }
 
-=======
-/* You can add global styles to this file, and also import other style files */
-/*@import "~@sitespirit/ckeditor5-build-classic-and-inline/build/styles.css";*/
-
-h1,h2,h3,h4,h5,h6,ul,ol,p {
-  margin:0;
-  padding:0;
-}
-
-h2 {
-  font-weight: normal;
-}
-
-h4 {
-  font-size:20px;
-  margin-bottom: 20px;
-}
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  background-color:#eeeeee;
-  font-size:13px;
-  margin: 15px 0 0 0;
-}
-
-div {
-  box-sizing: border-box;
-}
-
-/* CKE overrides */
-
-body .ck.ck-editor__editable_inline > :first-child {
-  margin-top: 0;
-}
-
-body .ck.ck-editor__editable_inline > :last-child {
-  margin-bottom: 0;
-}
-
-body .ck.ck-editor__editable_inline {
-  padding: 0;
-  margin: 0;
-  border: none;
-  overflow: hidden;
-}
-
-body .ck.ck-editor__editable_inline:not(.ck-editor__nested-editable).ck-focused {
-  border: none;
-  box-shadow: none;
-}
-
-/* end CKE overrides */
-
-.pdf-wrapper, #inputElement > * {
-  display: block;
-  max-width: 796.8px;
-  margin: 0 auto;
-}
-
-app-template-container, #inputElement > * {
-  visibility: hidden;
-}
-
-.page, .dynamic-pages {
-  box-shadow: 0 0 0 0.75pt #d1d1d1,0 0 3pt 0.75pt #ccc;
-  padding-bottom: 140.9638554216867%;
-  height: 0;
-  overflow: hidden;
-  position: relative;
-  margin-bottom: 15px;
-  background-color: white;
-  page-break-after: always;
-}
-
-.page-inner {
-  position: absolute;
-  left: 0;
-  top: 400px;
-  width: 100%;
-  height: calc(100% - 460px);
-  box-sizing: border-box;
-  overflow: hidden;
-  padding:20px 45px;
-}
-
-.page-inner.page-no-header {
-  top:0;
-  height: calc(100% - 60px);
-}
-
-.page-inner.page-no-footer {
-  height: calc(100% - 420px);
-}
-
-.page-inner.page-no-header.page-no-footer {
-  top:0;
-  height: 100%;
-}
-
-.page-header {
-  height: 400px;
-  overflow: hidden;
-  position: relative;
-}
-
-.page-footer {
-  height: 60px;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding:20px 45px;
-  text-align: center;
-}
-
-
-.full-height-page-inner {
-  height: 100%;
-  top: 0;
-  padding: 0;
->>>>>>> 19da9a0808f4ea1a637e943aa19939e97bf931cd
 }
