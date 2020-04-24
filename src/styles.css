@@ -795,17 +795,29 @@ nav .navbar-right {
   display: none;
 }
 
-.itinerary-url .popup,
-.destination-url .popup,
-.home-panel .popup {
-  position: fixed;
-  width: 100vw;
-  height: 100vw;
+.destination-url .popup {
+  position: absolute;
+  width: 100%;
+  height: auto;
   background: rgba(0, 0, 0, 0.8);
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  left: 50%;
-  top: 50%;
+  -webkit-transform: translate(0%, 0%);
+  transform: translate(0%, 0%);
+  left: 0;
+  top: initial;
+  display: block;
+  z-index: 99;
+  margin: 0px 0 0 0;
+}
+.itinerary-url .popup,
+.home-panel .popup {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0.8);
+  -webkit-transform: translate(0%, 0%);
+  transform: translate(0%, 0%);
+  left: 0;
+  top: initial;
   display: none;
   z-index: 99;
 }
@@ -829,15 +841,16 @@ nav .navbar-right {
 
 .itinerary-url .popup-inner,
 .destination-url .popup-inner {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  width: 510px;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  right: 15px;
+  width: auto;
   padding: 30px;
   height: auto;
   background: #fff;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(0%, 0%);
+  transform: translate(0%, 0%);
 }
 
 .itinerary-url .popup-inner .fa-times,
@@ -949,6 +962,7 @@ nav .navbar-right {
   right: 0;
   top: 0;
   cursor: pointer;
+  display: none;
 }
 
 .destination-url #popup_checkbox:checked+.popup,
@@ -985,15 +999,17 @@ header img {
 
 /* start cover image */
 .hero.youtube-video {
-  position: relative;
+  /* position: relative;
   border-color: #ee7203;
   border-style: solid;
-  border-width: 15px 0;
+  border-width: 5px 0; */
+  position: relative;
+  border: 5px solid #ee7203;
 }
 .banner-cover {
   width: 100%;
   display: block;
-  min-height: 700px;
+  min-height: 925px;
   object-fit: cover;
 }
 .hero .vdotxt {
@@ -1079,13 +1095,13 @@ header img {
 
 .home-discover {
   background: rgba(0, 0, 0, 0.8);
-  padding: 29px 0 17px;
-  position: relative;
-  bottom: 0;
+  position: absolute;
+  bottom: 15px;
   padding: 15px;
-  width: 100%;
-  border-top: 5px solid #ee7203;
+  width: auto;
   border-top: none;
+  left: 15px;
+  right: 15px;
 }
 
 .home-discover .home-family {
@@ -1511,7 +1527,7 @@ header img {
 
 .overview-your-trip .overview-map iframe {
   width: 100%;
-  height: 167px;
+  height: 300px;
   margin: 0 0 45px 0;
 }
 
@@ -1785,6 +1801,7 @@ header img {
 
 .destination .destination-url .read-more {
   margin: 0 35px 0 0px;
+  display: none;
 }
 
 
@@ -2119,8 +2136,8 @@ header img {
 }
 
 .collapsible-content {
-  max-height: 0px;
-  overflow: hidden;
+  /* max-height: 0px;
+  overflow: hidden; */
   transition: max-height 0.25s ease-in-out;
   width: 100%;
 }
