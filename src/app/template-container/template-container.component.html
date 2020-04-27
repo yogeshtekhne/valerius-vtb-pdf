@@ -1,138 +1,87 @@
 <!-- start cover page -->
 <div class="page">
     <div class="page-inner">
-    <header>
-       <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/original/logo.png"
-          />
-    </header>
-    <!-- start cover image -->
-    <div class="hero youtube-video">
-       <div class="youtube-wrapper">
-           <img class="banner-cover" src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/original/43497-waterbergregion-1.jpg"></div>
-       <div class="vdotxt">
-          <div class="vdotxt-section">
-             <div class="vdotxt-title">
-                 
-                <h3>{{ itinerary.title }}</h3>
+       <header>
+          <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/original/logo.png"
+             />
+       </header>
+       <!-- start cover image -->
+       <div class="hero youtube-video">
+          <div class="youtube-wrapper">
+             <img class="banner-cover" src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/original/43497-waterbergregion-1.jpg">
+          </div>
+          <div class="vdotxt">
+             <div class="vdotxt-section">
+                <div class="vdotxt-title">
+                   <h3>{{ itinerary.title }}</h3>
+                </div>
              </div>
           </div>
        </div>
-    </div>
-    <!-- end cover image -->
-    
-    <div class="home-discover">
-        <div class="container display-flex">
-          <div class="home-logo">
-            <img
-              src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/original/logo.png"
-            />
-          </div>
-          <div class="home-family">
-            <p class="home-title">{{ itinerary.subTitle }}</p>
-            <p class="home-days">
-              {{ itinerary.totalDays - 1 }} Nights |
-              {{ itinerary.startDate | date }} -
-              {{ itinerary.endDate | date }}
-            </p>
-          </div>
-          <div class="home-discover-button">
-            <label class="popup_checkbox2 buttonUrl" for="destination">{{
-              itinerary.button_discover
+       <!-- end cover image -->
+       <div class="home-discover">
+          <div class="container display-flex">
+             <div class="home-logo">
+                <img
+                   src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/original/logo.png"
+                   />
+             </div>
+             <div class="home-family">
+                <p class="home-title">{{ itinerary.subTitle }}</p>
+                <p class="home-days">
+                   {{ itinerary.totalDays - 1 }} Nights |
+                   {{ itinerary.startDate | date }} -
+                   {{ itinerary.endDate | date }}
+                </p>
+             </div>
+             <div class="home-discover-button">
+                <label class="popup_checkbox2 buttonUrl" for="destination">{{
+                itinerary.button_discover
                 ? itinerary.button_discover
                 : "Discover"
-            }}</label>
+                }}</label>
+             </div>
           </div>
-        </div>
-      </div>
-
-      
-      <!-- <div class="contact-copy">
-        <div class="container">
-           <p>© Valerius Reizen | 2020</p>
-        </div>
-     </div> -->
-</div>
+       </div>
+       <!-- <div class="contact-copy">
+          <div class="container">
+             <p>© Valerius Reizen | 2020</p>
+          </div>
+          </div> -->
+    </div>
  </div>
  <!-- end cover page -->
  <!-- start destination -->
  <div class="page">
-     <div class="page-inner">
-    <section class="destination">
-       <!-- <div class="row">
-          <h1 class="destination-title">Destination</h1>
-          </div> -->
-       <div class="info-imglist">
-          <ul>
+    <div class="page-inner">
+       <section class="destination">
+          <!-- <div class="row">
+             <h1 class="destination-title">Destination</h1>
+             </div> -->
+          <div class="info-imglist">
+             <ul>
                 <li>
-                    <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/wordpress/medium/wp2226114-namibia-wallpapers.jpg" />
+                   <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/wordpress/medium/wp2226114-namibia-wallpapers.jpg" />
                 </li>
                 <li>
-                    <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/wordpress/medium/wp2226114-namibia-wallpapers.jpg" />
+                   <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/wordpress/medium/wp2226114-namibia-wallpapers.jpg" />
                 </li>
                 <li>
-                    <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/wordpress/medium/wp2226114-namibia-wallpapers.jpg" />
+                   <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/wordpress/medium/wp2226114-namibia-wallpapers.jpg" />
                 </li>
-         </ul>
+             </ul>
              <!-- <ng-container *ngFor="let segment of itinerary.segments">
                 <ng-container *ngIf="segment.typeId == 19">
                    <li *ngFor="let image of segment.media">
                       <img src="{{ image.url }}" />
                    </li>
                 </ng-container>
-             </ng-container> -->
-       </div>
-       <div class="container">
-          <div class="display-flex-start">
-             <div class="destination-details sliders">
-                <div class="wrapper">
-                   <ng-container *ngFor="let segment of itinerary.segments">
-                      <ng-container *ngIf="segment.typeId == 19">
-                         <ng-container *ngFor="let element of segment.elements">
-                            <ng-container *ngIf="element.unitId == 17">
-                               <ng-container
-                                  *ngFor="let image of element.media; let i = index"
-                                  >
-                                  <input
-                                     class="slicss-input"
-                                     [checked]="i == 1 ? true : false"
-                                     type="radio"
-                                     name="adv_slide"
-                                     id="advsli{{ i + 1 }}"
-                                     />
-                               </ng-container>
-                            </ng-container>
-                         </ng-container>
-                      </ng-container>
-                   </ng-container>
-                   <div class="slider-wrapper">
-                      <div class="inner">
-                        <ul class="slider-image-fix">
-                            <li>
-                                <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/lg/wp2226112-namibia-wallpapers.jpg" />
-                            </li>
-                             <li>
-                                <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/lg/wp2226114-namibia-wallpapers.jpg" />
-                             </li>
-                             <li>
-                                <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/lg/wp2226121-namibia-wallpapers.jpg" />
-                             </li>
-                        </ul>
-                         <!-- <ng-container *ngFor="let segment of itinerary.segments">
-                            <ng-container *ngIf="segment.typeId == 19">
-                               <ng-container *ngFor="let element of segment.elements">
-                                  <ng-container *ngIf="element.unitId == 17">
-                                     <article *ngFor="let image of element.media">
-                                        <img src="{{ image.url }}" />
-                                     </article>
-                                  </ng-container>
-                               </ng-container>
-                            </ng-container>
-                         </ng-container> -->
-                      </div>
-                      <!-- .inner -->
-                   </div>
-                   <!-- .slider-wrapper -->
-                   <div class="slider-prev-next-control">
+                </ng-container> -->
+          </div>
+          <div class="container">
+             <div class="display-flex-start">
+                <div class="destination-details sliders">
+                   <div class="wrapper">
                       <ng-container *ngFor="let segment of itinerary.segments">
                          <ng-container *ngIf="segment.typeId == 19">
                             <ng-container *ngFor="let element of segment.elements">
@@ -140,528 +89,573 @@
                                   <ng-container
                                      *ngFor="let image of element.media; let i = index"
                                      >
-                                     <label for="advsli{{ 1 + i }}"></label>
+                                     <input
+                                        class="slicss-input"
+                                        [checked]="i == 1 ? true : false"
+                                        type="radio"
+                                        name="adv_slide"
+                                        id="advsli{{ i + 1 }}"
+                                        />
                                   </ng-container>
                                </ng-container>
                             </ng-container>
                          </ng-container>
                       </ng-container>
-                   </div>
-                   <p class="optional-dsc">
-                      Optional photo descriptions - one line | The Waterburg Plateau
-                      is a particularly prominent location
-                   </p>
-                </div>
-             </div>
-             <ng-container *ngFor="let segment of itinerary.segments">
-                <ng-container *ngIf="segment.typeId == 19">
-                   <div class="destination-details">
-                      <h5 class="destination-title">{{ itinerary.destinationH1 }}</h5>
-                      <h6 class="destination-sub-title">
-                         {{ itinerary.destinationH2 }}
-                      </h6>
-                      <p [innerHTML]="itinerary.destinationH3"></p>
-                      <div class="destination-url">
-                         <!-- <a class="read-more" href="">Read more</a>     -->
-                         <ng-container
-                            *ngIf="
-                            itinerary.destinationH1 ||
-                            itinerary.destinationH2 ||
-                            itinerary.destinationH3 ||
-                            itinerary.destinationContent
-                            "
-                            >
-                            <label class="read-more" for="popup_checkbox"
-                               >{{
-                            itinerary.button_readmore
-                            ? itinerary.button_readmore
-                            : "Read more"
-                            }}
-                            </label>
-                            <input
-                               type="checkbox"
-                               name="popup_checkbox"
-                               id="popup_checkbox"
-                               />
-                            <div class="popup">
-                               <div class="popup-inner">
-                                  <label class="popup_checkbox" for="popup_checkbox"
-                                     ><i class="fa fa-times" aria-hidden="true"></i
-                                     ></label>
-                                  <h3>{{ itinerary.destinationH1 }}</h3>
-                                  <h4>{{ itinerary.destinationH2 }}</h4>
-                                  <div class="popup-scroll">
-                                     <p [innerHTML]="itinerary.destinationH3"></p>
-                                     <p [innerHTML]="itinerary.destinationContent"></p>
-                                  </div>
-                               </div>
-                            </div>
-                         </ng-container>
-                         <!-- <a class="read-more" href="">{{ itinerary.button_itinerary?itinerary.button_itinerary:'Daily Itinerary' }}</a>     -->
-                         <label class="read-more" id="daily-tab" for="daily">{{
-                         itinerary.button_itinerary
-                         ? itinerary.button_itinerary
-                         : "Daily Itinerary"
-                         }}</label>
-                      </div>
-                   </div>
-                </ng-container>
-             </ng-container>
-          </div>
-       </div>
-       <div class="contact-copy">
-          <div class="container">
-             <p>© Valerius Reizen | 2020</p>
-          </div>
-       </div>
-    </section>
-</div>
- </div>
- <!-- end destination -->
- <!-- start daily itinerary -->
- <div class="dynamic-pages">
-     <div class="page-inner">
-    <section class="daily-itinerary">
-       <div class="container">
-          <div class="row">
-             <h1 class="main-title">
-                {{
-                itinerary.titel_itinerary
-                ? itinerary.titel_itinerary
-                : "Your personal Daily Itinerary"
-                }}
-             </h1>
-          </div>
-          <div class="row">
-             <div
-                class="daily-itinerary-section"
-                *ngFor="let segment of itinerary.dailyItinerary; let j = index"
-                >
-                <div class="display-flex-start">
-                   <div class="daily-itinerary-days orange{{ itinerary.atoz[j] }}">
-                      <h1>
-                         DAY {{ segment.day }}-{{ segment.day + segment.nights }} |
-                         {{ segment.title }}
-                      </h1>
-                      <h2>
-                         <span>{{ segment.nights }} nights</span> |
-                         {{ segment.date | date }} - {{ segment.endDate | date }}
-                      </h2>
-                      <ng-container *ngFor="let element of segment.elements">
-                         <ng-container *ngIf="element.unitId == 17">
-                            <p [innerHTML]="element.additionalText"></p>
-                         </ng-container>
-                      </ng-container>
-                      <ng-container *ngFor="let element of segment.elements">
-                         <ng-container *ngIf="element.unitId == 2">
-                            <div class="itinerary-url">
-                               <label class="read-more" for="daiite_popup{{ j }}">{{
-                               element.title
-                               }}</label>
-                               <input
-                                  type="checkbox"
-                                  name="daiite_popup{{ j }}"
-                                  id="daiite_popup{{ j }}"
-                                  />
-                               <div class="popup">
-                                  <div class="popup-inner">
-                                     <label
-                                        class="daiite_popup{{ j }}"
-                                        for="daiite_popup{{ j }}"
-                                        ><i class="fa fa-times" aria-hidden="true"></i
-                                        ></label>
-                                     <h3>{{ segment.title }}</h3>
-                                     <div class="popup-scroll">
-                                        <h2>
-                                           <span>{{ segment.nights }} nights</span> |
-                                           {{ segment.date | date }} -
-                                           {{ segment.endDate | date }}
-                                        </h2>
-                                        <p [innerHTML]="element.additionalText"></p>
-                                     </div>
-                                  </div>
-                               </div>
-                            </div>
-                         </ng-container>
-                      </ng-container>
-                   </div>
-                   <div class="daily-itinerary-days sliders">
-                      <div class="wrapper">
-                         <ng-container *ngFor="let element of segment.elements">
-                            <ng-container *ngIf="element.unitId == 17">
-                               <ng-container
-                                  *ngFor="let image of element.media; let i = index"
-                                  >
-                                  <input
-                                     class="slicss-input"
-                                     [checked]="i == 0 ? true : false"
-                                     type="radio"
-                                     name="dayItenery{{ j }}"
-                                     id="datIte{{ j }}{{ 1 + i }}"
-                                     />
-                               </ng-container>
-                            </ng-container>
-                         </ng-container>
-                         <div class="slider-wrapper">
-                            <div class="inner">
-                               <ng-container *ngFor="let element of segment.elements">
-                                  <ng-container *ngIf="element.unitId == 17">
-                                     <ng-container *ngFor="let image of element.media">
-                                        <article>
+                      <div class="slider-wrapper">
+                         <div class="inner">
+                            <ul class="slider-image-fix">
+                               <li>
+                                  <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/lg/wp2226112-namibia-wallpapers.jpg" />
+                               </li>
+                               <li>
+                                  <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/lg/wp2226114-namibia-wallpapers.jpg" />
+                               </li>
+                               <li>
+                                  <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/lg/wp2226121-namibia-wallpapers.jpg" />
+                               </li>
+                            </ul>
+                            <!-- <ng-container *ngFor="let segment of itinerary.segments">
+                               <ng-container *ngIf="segment.typeId == 19">
+                                  <ng-container *ngFor="let element of segment.elements">
+                                     <ng-container *ngIf="element.unitId == 17">
+                                        <article *ngFor="let image of element.media">
                                            <img src="{{ image.url }}" />
                                         </article>
                                      </ng-container>
                                   </ng-container>
                                </ng-container>
-                            </div>
-                            <!-- .inner -->
+                               </ng-container> -->
                          </div>
-                         <!-- .slider-wrapper -->
-                         <div class="slider-prev-next-control">
+                         <!-- .inner -->
+                      </div>
+                      <!-- .slider-wrapper -->
+                      <div class="slider-prev-next-control">
+                         <ng-container *ngFor="let segment of itinerary.segments">
+                            <ng-container *ngIf="segment.typeId == 19">
+                               <ng-container *ngFor="let element of segment.elements">
+                                  <ng-container *ngIf="element.unitId == 17">
+                                     <ng-container
+                                        *ngFor="let image of element.media; let i = index"
+                                        >
+                                        <label for="advsli{{ 1 + i }}"></label>
+                                     </ng-container>
+                                  </ng-container>
+                               </ng-container>
+                            </ng-container>
+                         </ng-container>
+                      </div>
+                      <p class="optional-dsc">
+                         Optional photo descriptions - one line | The Waterburg Plateau
+                         is a particularly prominent location
+                      </p>
+                   </div>
+                </div>
+                <ng-container *ngFor="let segment of itinerary.segments">
+                   <ng-container *ngIf="segment.typeId == 19">
+                      <div class="destination-details">
+                         <h5 class="destination-title">{{ itinerary.destinationH1 }}</h5>
+                         <h6 class="destination-sub-title">
+                            {{ itinerary.destinationH2 }}
+                         </h6>
+                         <p [innerHTML]="itinerary.destinationH3"></p>
+                         <div class="destination-url">
+                            <!-- <a class="read-more" href="">Read more</a>     -->
+                            <ng-container
+                               *ngIf="
+                               itinerary.destinationH1 ||
+                               itinerary.destinationH2 ||
+                               itinerary.destinationH3 ||
+                               itinerary.destinationContent
+                               "
+                               >
+                               <label class="read-more" for="popup_checkbox"
+                                  >{{
+                               itinerary.button_readmore
+                               ? itinerary.button_readmore
+                               : "Read more"
+                               }}
+                               </label>
+                               <input
+                                  type="checkbox"
+                                  name="popup_checkbox"
+                                  id="popup_checkbox"
+                                  />
+                               <div class="popup">
+                                  <div class="popup-inner">
+                                     <label class="popup_checkbox" for="popup_checkbox"
+                                        ><i class="fa fa-times" aria-hidden="true"></i
+                                        ></label>
+                                     <h3>{{ itinerary.destinationH1 }}</h3>
+                                     <h4>{{ itinerary.destinationH2 }}</h4>
+                                     <div class="popup-scroll">
+                                        <p [innerHTML]="itinerary.destinationH3"></p>
+                                        <p [innerHTML]="itinerary.destinationContent"></p>
+                                     </div>
+                                  </div>
+                               </div>
+                            </ng-container>
+                            <!-- <a class="read-more" href="">{{ itinerary.button_itinerary?itinerary.button_itinerary:'Daily Itinerary' }}</a>     -->
+                            <label class="read-more" id="daily-tab" for="daily">{{
+                            itinerary.button_itinerary
+                            ? itinerary.button_itinerary
+                            : "Daily Itinerary"
+                            }}</label>
+                         </div>
+                      </div>
+                   </ng-container>
+                </ng-container>
+             </div>
+          </div>
+          <div class="contact-copy">
+             <div class="container">
+                <p>© Valerius Reizen | 2020</p>
+             </div>
+          </div>
+       </section>
+    </div>
+ </div>
+ <!-- end destination -->
+ <!-- start daily itinerary -->
+ <div class="dynamic-pages">
+    <div class="page-inner">
+       <section class="daily-itinerary">
+          <div class="container">
+             <div class="row">
+                <h1 class="main-title">
+                   {{
+                   itinerary.titel_itinerary
+                   ? itinerary.titel_itinerary
+                   : "Your personal Daily Itinerary"
+                   }}
+                </h1>
+             </div>
+             <div class="row">
+                <div
+                   class="daily-itinerary-section"
+                   *ngFor="let segment of itinerary.dailyItinerary; let j = index"
+                   >
+                   <div class="display-flex-start">
+                      <div class="daily-itinerary-days orange{{ itinerary.atoz[j] }}">
+                         <h1>
+                            DAY {{ segment.day }}-{{ segment.day + segment.nights }} |
+                            {{ segment.title }}
+                         </h1>
+                         <h2>
+                            <span>{{ segment.nights }} nights</span> |
+                            {{ segment.date | date }} - {{ segment.endDate | date }}
+                         </h2>
+                         <ng-container *ngFor="let element of segment.elements">
+                            <ng-container *ngIf="element.unitId == 17">
+                               <p [innerHTML]="element.additionalText"></p>
+                            </ng-container>
+                         </ng-container>
+                         <ng-container *ngFor="let element of segment.elements">
+                            <ng-container *ngIf="element.unitId == 2">
+                               <div class="itinerary-url">
+                                  <label class="read-more" for="daiite_popup{{ j }}">{{
+                                  element.title
+                                  }}</label>
+                                  <input
+                                     type="checkbox"
+                                     name="daiite_popup{{ j }}"
+                                     id="daiite_popup{{ j }}"
+                                     />
+                                  <div class="popup">
+                                     <div class="popup-inner">
+                                        <label
+                                           class="daiite_popup{{ j }}"
+                                           for="daiite_popup{{ j }}"
+                                           ><i class="fa fa-times" aria-hidden="true"></i
+                                           ></label>
+                                        <h3>{{ segment.title }}</h3>
+                                        <div class="popup-scroll">
+                                           <h2>
+                                              <span>{{ segment.nights }} nights</span> |
+                                              {{ segment.date | date }} -
+                                              {{ segment.endDate | date }}
+                                           </h2>
+                                           <p [innerHTML]="element.additionalText"></p>
+                                        </div>
+                                     </div>
+                                  </div>
+                               </div>
+                            </ng-container>
+                         </ng-container>
+                      </div>
+                      <div class="daily-itinerary-days sliders">
+                         <div class="wrapper">
                             <ng-container *ngFor="let element of segment.elements">
                                <ng-container *ngIf="element.unitId == 17">
                                   <ng-container
                                      *ngFor="let image of element.media; let i = index"
                                      >
-                                     <label for="datIte{{ j }}{{ 1 + i }}"></label>
+                                     <input
+                                        class="slicss-input"
+                                        [checked]="i == 0 ? true : false"
+                                        type="radio"
+                                        name="dayItenery{{ j }}"
+                                        id="datIte{{ j }}{{ 1 + i }}"
+                                        />
                                   </ng-container>
                                </ng-container>
                             </ng-container>
+                            <div class="slider-wrapper">
+                               <div class="inner">
+                                  <ng-container *ngFor="let element of segment.elements">
+                                     <ng-container *ngIf="element.unitId == 17">
+                                        <ng-container *ngFor="let image of element.media">
+                                           <article>
+                                              <img src="{{ image.url }}" />
+                                           </article>
+                                        </ng-container>
+                                     </ng-container>
+                                  </ng-container>
+                               </div>
+                               <!-- .inner -->
+                            </div>
+                            <!-- .slider-wrapper -->
+                            <div class="slider-prev-next-control">
+                               <ng-container *ngFor="let element of segment.elements">
+                                  <ng-container *ngIf="element.unitId == 17">
+                                     <ng-container
+                                        *ngFor="let image of element.media; let i = index"
+                                        >
+                                        <label for="datIte{{ j }}{{ 1 + i }}"></label>
+                                     </ng-container>
+                                  </ng-container>
+                               </ng-container>
+                            </div>
+                            <!-- .slider-dot-control -->
+                            <p class="optional-dsc">
+                               Optional photo descriptions - one line | The Waterburg
+                               Plateau is a particularly prominent location
+                            </p>
                          </div>
-                         <!-- .slider-dot-control -->
-                         <p class="optional-dsc">
-                            Optional photo descriptions - one line | The Waterburg
-                            Plateau is a particularly prominent location
-                         </p>
                       </div>
                    </div>
                 </div>
              </div>
           </div>
-       </div>
-       <div class="contact-copy">
-          <div class="container">
-             <p>© Valerius Reizen | 2020</p>
+          <div class="contact-copy">
+             <div class="container">
+                <p>© Valerius Reizen | 2020</p>
+             </div>
           </div>
-       </div>
-    </section>
-</div>
+       </section>
+    </div>
  </div>
  <!-- end daily itinerary -->
  <!-- start overview -->
  <div class="dynamic-pages">
-     <div class="page-inner">
-    <section class="overview-your-trip">
-       <div class="container">
-          <div class="row">
-             <h1 class="main-title">
-                {{
-                itinerary.titel_overview
-                ? itinerary.titel_overview
-                : "Overview of your trip"
-                }}
-             </h1>
-          </div>
-          <div class="row">
-             <div class="display-flex-start">
-                <div class="overview-trip-section">
-                   <div class="ovetri-lefbor">
-                      <ng-container *ngFor="let segment of itinerary.segments">
-                         <ng-container *ngIf="segment.typeId == 4">
-                            <div class="overview-days flight">
-                               <h2>{{ segment.title }}</h2>
-                               <p>{{ segment.subTitle }}</p>
-                            </div>
-                         </ng-container>
-                         <ng-container *ngIf="segment.typeId == 1">
-                            <div class="overview-days orange{{ segment.iconChar }}">
-                               <h2>DAY {{ segment.day }} | {{ segment.title }}</h2>
-                               <p>{{ segment.subTitle }}</p>
-                            </div>
-                         </ng-container>
-                         <ng-container *ngIf="segment.typeId == 18">
-                            <ng-container *ngFor="let element of segment.elements">
-                               <ng-container
-                                  *ngIf="element.unitId == 6 || element.unitId == 10"
-                                  >
-                                  <div class="overview-days car">
-                                     <h2>Day {{ segment.day }} | {{ segment.title }}</h2>
-                                     <p>{{ segment.subTitle }}</p>
-                                  </div>
+    <div class="page-inner">
+       <section class="overview-your-trip">
+          <div class="container">
+             <div class="row">
+                <h1 class="main-title">
+                   {{
+                   itinerary.titel_overview
+                   ? itinerary.titel_overview
+                   : "Overview of your trip"
+                   }}
+                </h1>
+             </div>
+             <div class="row">
+                <div class="display-flex-start">
+                   <div class="overview-trip-section">
+                      <div class="ovetri-lefbor">
+                         <ng-container *ngFor="let segment of itinerary.segments">
+                            <ng-container *ngIf="segment.typeId == 4">
+                               <div class="overview-days flight">
+                                  <h2>{{ segment.title }}</h2>
+                                  <p>{{ segment.subTitle }}</p>
+                               </div>
+                            </ng-container>
+                            <ng-container *ngIf="segment.typeId == 1">
+                               <div class="overview-days orange{{ segment.iconChar }}">
+                                  <h2>DAY {{ segment.day }} | {{ segment.title }}</h2>
+                                  <p>{{ segment.subTitle }}</p>
+                               </div>
+                            </ng-container>
+                            <ng-container *ngIf="segment.typeId == 18">
+                               <ng-container *ngFor="let element of segment.elements">
+                                  <ng-container
+                                     *ngIf="element.unitId == 6 || element.unitId == 10"
+                                     >
+                                     <div class="overview-days car">
+                                        <h2>Day {{ segment.day }} | {{ segment.title }}</h2>
+                                        <p>{{ segment.subTitle }}</p>
+                                     </div>
+                                  </ng-container>
                                </ng-container>
                             </ng-container>
-                         </ng-container>
-                         <ng-container *ngIf="segment.typeId == 18">
-                            <div class="overview-days flight">
-                               <h2>{{ segment.title }}</h2>
-                               <p>
-                                  Domestic flight
-                                  <ng-container *ngFor="let element of segment.elements">
-                                     <ng-container *ngIf="element.TSOrderline">
-                                        <ng-container
-                                           *ngFor="
-                                           let extraFieldValue of element.TSOrderline
-                                           .extraFieldValues
-                                           "
-                                           >
+                            <ng-container *ngIf="segment.typeId == 18">
+                               <div class="overview-days flight">
+                                  <h2>{{ segment.title }}</h2>
+                                  <p>
+                                     Domestic flight
+                                     <ng-container *ngFor="let element of segment.elements">
+                                        <ng-container *ngIf="element.TSOrderline">
                                            <ng-container
-                                              *ngIf="extraFieldValue.name == 'Tijd_van'"
+                                              *ngFor="
+                                              let extraFieldValue of element.TSOrderline
+                                              .extraFieldValues
+                                              "
                                               >
-                                              {{ extraFieldValue.value }}
-                                              {{ extraFieldValue.value ? "-" : "" }}
+                                              <ng-container
+                                                 *ngIf="extraFieldValue.name == 'Tijd_van'"
+                                                 >
+                                                 {{ extraFieldValue.value }}
+                                                 {{ extraFieldValue.value ? "-" : "" }}
+                                              </ng-container>
                                            </ng-container>
                                         </ng-container>
                                      </ng-container>
-                                  </ng-container>
-                                  <ng-container *ngFor="let element of segment.elements">
-                                     <ng-container *ngIf="element.TSOrderline">
-                                        <ng-container
-                                           *ngFor="
-                                           let extraFieldValue of element.TSOrderline
-                                           .extraFieldValues
-                                           "
-                                           >
+                                     <ng-container *ngFor="let element of segment.elements">
+                                        <ng-container *ngIf="element.TSOrderline">
                                            <ng-container
-                                              *ngIf="extraFieldValue.name == 'Tijd_tot'"
+                                              *ngFor="
+                                              let extraFieldValue of element.TSOrderline
+                                              .extraFieldValues
+                                              "
                                               >
-                                              {{ extraFieldValue.value }}
+                                              <ng-container
+                                                 *ngIf="extraFieldValue.name == 'Tijd_tot'"
+                                                 >
+                                                 {{ extraFieldValue.value }}
+                                              </ng-container>
                                            </ng-container>
                                         </ng-container>
                                      </ng-container>
-                                  </ng-container>
-                               </p>
-                            </div>
+                                  </p>
+                               </div>
+                            </ng-container>
                          </ng-container>
-                      </ng-container>
+                      </div>
                    </div>
-                </div>
-                <div class="overview-trip-section overview-map">
-                   <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15075112.474293219!2d9.338308145362097!3d-22.71160705974299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1bf53c7e6ed37521%3A0xd3b9e5a5a8ecb261!2sNamibia!5e0!3m2!1sen!2sin!4v1585536982147!5m2!1sen!2sin"
-                      width=""
-                      height=""
-                      frameborder="0"
-                      style="border: 0;"
-                      allowfullscreen=""
-                      aria-hidden="false"
-                      tabindex="0"
-                      ></iframe>
-                   <div class="overview-include">
-                      <h5>Included in trip</h5>
-                      {{ itinerary.include_trip_text }}
-                      <br />
-                      <ng-container *ngIf="itinerary.show_price_vtb">
-                         Price :
-                         {{
-                         itinerary.salesPriceBeforeRounding
-                         | currency: "EUR":"symbol":undefined:"nl"
-                         }}
-                      </ng-container>
-                   </div>
-                </div>
-             </div>
-          </div>
-       </div>
-       <div class="contact-copy">
-          <div class="container">
-             <p>© Valerius Reizen | 2020</p>
-          </div>
-       </div>
-    </section>
-</div>
- </div>
- <!-- end overview -->
- <!-- start information -->
- <div class="page">
-     <div class="page-inner">
-    <section class="information">
-       <div class="info-imglist">
-           
-        <ul>
-                <li>
-                    <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/wordpress/medium/wp2226114-namibia-wallpapers.jpg" />
-                </li>
-                <li>
-                    <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/wordpress/medium/wp2226114-namibia-wallpapers.jpg" />
-                </li>
-        </ul>
-          <!-- <ng-container *ngFor="let segment of itinerary.segments">
-             <ng-container *ngIf="segment.typeId == 20">
-                  <ul>
-                     <ng-container *ngFor="let image of segment.media; let i=index">
-                        <li *ngIf="i<3">
-                           <img src="{{ image.url }}" />
-                        </li>
-                     </ng-container>
-                  </ul>
-             </ng-container>
-          </ng-container> -->
-       </div>
-       <div class="container padding-top-bottom-30px">
-          <div class="row">
-             <h1 class="main-title">
-                {{
-                itinerary.titel_information
-                ? itinerary.titel_information
-                : "Practical Information"
-                }}
-             </h1>
-          </div>
-          <div class="row">
-             <div class="display-flex">
-                <div class="info-slugs" *ngFor="let content of itinerary.contents">
-                   <span [innerHTML]="content"></span>
-                </div>
-             </div>
-          </div>
-          <div class="wrap-collabsible td-lodmor">
-             <input
-                id="collapsible1"
-                class="toggle toggle-first"
-                type="checkbox"
-                />
-             <label for="collapsible1" class="lbl-toggle"
-                ><i class="fas fa-chevron-down"></i
-                ></label>
-             <div class="collapsible-content">
-                <div class="content-inner">
-                   <div class="row">
-                      <div class="display-flex">
-                         <div
-                            class="info-slugs"
-                            *ngFor="let content of itinerary.contents"
-                            >
-                            <span [innerHTML]="content"></span>
-                         </div>
+                   <div class="overview-trip-section overview-map">
+                      <iframe
+                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15075112.474293219!2d9.338308145362097!3d-22.71160705974299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1bf53c7e6ed37521%3A0xd3b9e5a5a8ecb261!2sNamibia!5e0!3m2!1sen!2sin!4v1585536982147!5m2!1sen!2sin"
+                         width=""
+                         height=""
+                         frameborder="0"
+                         style="border: 0;"
+                         allowfullscreen=""
+                         aria-hidden="false"
+                         tabindex="0"
+                         ></iframe>
+                      <div class="overview-include">
+                         <h5>Included in trip</h5>
+                         {{ itinerary.include_trip_text }}
+                         <br />
+                         <ng-container *ngIf="itinerary.show_price_vtb">
+                            Price :
+                            {{
+                            itinerary.salesPriceBeforeRounding
+                            | currency: "EUR":"symbol":undefined:"nl"
+                            }}
+                         </ng-container>
                       </div>
                    </div>
                 </div>
              </div>
-             <!-- <a class="show-more" href="">Show more</a> -->
           </div>
-       </div>
-       <div class="contact-copy">
-          <div class="container">
-             <p>© Valerius Reizen | 2020</p>
+          <div class="contact-copy">
+             <div class="container">
+                <p>© Valerius Reizen | 2020</p>
+             </div>
           </div>
-       </div>
-    </section>
-</div>
+       </section>
+    </div>
+ </div>
+ <!-- end overview -->
+ <!-- start information -->
+ <div class="page">
+    <div class="page-inner">
+       <section class="information">
+          <div class="info-imglist">
+             <ul>
+                <li>
+                   <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/wordpress/medium/wp2226114-namibia-wallpapers.jpg" />
+                </li>
+                <li>
+                   <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/wordpress/medium/wp2226114-namibia-wallpapers.jpg" />
+                </li>
+             </ul>
+             <!-- <ng-container *ngFor="let segment of itinerary.segments">
+                <ng-container *ngIf="segment.typeId == 20">
+                     <ul>
+                        <ng-container *ngFor="let image of segment.media; let i=index">
+                           <li *ngIf="i<3">
+                              <img src="{{ image.url }}" />
+                           </li>
+                        </ng-container>
+                     </ul>
+                </ng-container>
+                </ng-container> -->
+          </div>
+          <div class="container padding-top-bottom-30px">
+             <div class="row">
+                <h1 class="main-title">
+                   {{
+                   itinerary.titel_information
+                   ? itinerary.titel_information
+                   : "Practical Information"
+                   }}
+                </h1>
+             </div>
+             <div class="row">
+                <div class="display-flex">
+                   <div class="info-slugs" *ngFor="let content of itinerary.contents">
+                      <span [innerHTML]="content"></span>
+                   </div>
+                </div>
+             </div>
+             <div class="wrap-collabsible td-lodmor">
+                <input
+                   id="collapsible1"
+                   class="toggle toggle-first"
+                   type="checkbox"
+                   />
+                <label for="collapsible1" class="lbl-toggle"
+                   ><i class="fas fa-chevron-down"></i
+                   ></label>
+                <div class="collapsible-content">
+                   <div class="content-inner">
+                      <div class="row">
+                         <div class="display-flex">
+                            <div
+                               class="info-slugs"
+                               *ngFor="let content of itinerary.contents"
+                               >
+                               <span [innerHTML]="content"></span>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+                <!-- <a class="show-more" href="">Show more</a> -->
+             </div>
+          </div>
+          <div class="contact-copy">
+             <div class="container">
+                <p>© Valerius Reizen | 2020</p>
+             </div>
+          </div>
+       </section>
+    </div>
  </div>
  <!-- end information -->
  <!-- start contact -->
  <div class="page">
-     <div class="page-inner">
-    <section class="contact">
-       <div class="container">
-          <div class="row">
-             <h1 class="main-title">
-                {{ itinerary.titel_contact ? itinerary.titel_contact : "Contact" }}
-             </h1>
-          </div>
-          <div class="row">
-             <div class="display-flex-start">
-                <div class="contact-inner-section">
-                   <h1>We know the secret places</h1>
-                   <img
-                      class="contact-image"
-                      src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/sm/MARJA.jpg"
-                      />
-                   <a class="buttonUrl" href="mailto:someone@example.com?">Contact me</a>
-                </div>
-                <div class="contact-inner-section">
-                   <div class="row">
-                      <h2>A Matter of taste</h2>
-                      <p>
-                         Valerius Travel is an all-round tour operator in Amsterdam
-                         specialized in tailor-made travel. We are an enthusiastic team
-                         of highly qualified and professional staff, for whom travel is
-                         a real passion.We serve a group of loyal and individual
-                         travellers, looking for inspiration and professionalism. As an
-                         independent agent we are able to give good advice and find you
-                         the best suppliers, offering an excellent balance between
-                         quality and price.
-                      </p>
+    <div class="page-inner">
+       <section class="contact">
+          <div class="container">
+             <div class="row">
+                <h1 class="main-title">
+                   {{ itinerary.titel_contact ? itinerary.titel_contact : "Contact" }}
+                </h1>
+             </div>
+             <div class="row">
+                <div class="display-flex-start">
+                   <div class="contact-inner-section">
+                      <h1>We know the secret places</h1>
+                      <img
+                         class="contact-image"
+                         src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/sm/MARJA.jpg"
+                         />
+                      <a class="buttonUrl" href="mailto:someone@example.com?">Contact me</a>
                    </div>
-                   <div class="row">
-                      <h2>Marja Keuker</h2>
-                      <h3>Travel designer | Valerius Reizen</h3>
-                      <p>
-                         With more than 35 years experience in tourism I still enjoy
-                         and learn from every trip I make! In April 2004 I started
-                         working for Valerius, the specialist for unique travel within
-                         Europe and outside. My specialty is customized travelling for
-                         the individual traveller, families, fraternities and large
-                         groups. It’s a challenge each time to make a unique proposal
-                         after a lot of puzzling!
-                      </p>
+                   <div class="contact-inner-section">
+                      <div class="row">
+                         <h2>A Matter of taste</h2>
+                         <p>
+                            Valerius Travel is an all-round tour operator in Amsterdam
+                            specialized in tailor-made travel. We are an enthusiastic team
+                            of highly qualified and professional staff, for whom travel is
+                            a real passion.We serve a group of loyal and individual
+                            travellers, looking for inspiration and professionalism. As an
+                            independent agent we are able to give good advice and find you
+                            the best suppliers, offering an excellent balance between
+                            quality and price.
+                         </p>
+                      </div>
+                      <div class="row">
+                         <h2>Marja Keuker</h2>
+                         <h3>Travel designer | Valerius Reizen</h3>
+                         <p>
+                            With more than 35 years experience in tourism I still enjoy
+                            and learn from every trip I make! In April 2004 I started
+                            working for Valerius, the specialist for unique travel within
+                            Europe and outside. My specialty is customized travelling for
+                            the individual traveller, families, fraternities and large
+                            groups. It’s a challenge each time to make a unique proposal
+                            after a lot of puzzling!
+                         </p>
+                      </div>
+                      <div class="row">
+                         <ul class="contact-images">
+                            <li>
+                               <img
+                                  src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/original/contact-business.png"
+                                  />
+                            </li>
+                            <li>
+                               <img
+                                  src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/original/contact-vir.png"
+                                  />
+                            </li>
+                            <li>
+                               <img
+                                  src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/original/SGR-transparant.png"
+                                  />
+                            </li>
+                         </ul>
+                      </div>
                    </div>
-                   <div class="row">
-                      <ul class="contact-images">
-                         <li>
-                            <img
-                               src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/original/contact-business.png"
-                               />
-                         </li>
-                         <li>
-                            <img
-                               src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/original/contact-vir.png"
-                               />
-                         </li>
-                         <li>
-                            <img
-                               src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/original/SGR-transparant.png"
-                               />
-                         </li>
-                      </ul>
+                   <div class="contact-inner-section">
+                      <address>
+                         <h4>Contact Details</h4>
+                         <p>Valerius Reizen</p>
+                         <span
+                            >Krusemanstraat 1 <br />
+                         1075 NB Amsterdam <br />
+                         </span>
+                         <ul>
+                            <li>+31 (0)20 67 30 773</li>
+                            <li>
+                               <a href="mailto:webmaster@example.com">info@valerius.nl</a>
+                            </li>
+                            <li>
+                               <a target="_blank" href="https://www.valerius.nl/"
+                                  >www.valerius.nl</a
+                                  >
+                            </li>
+                         </ul>
+                      </address>
                    </div>
-                </div>
-                <div class="contact-inner-section">
-                   <address>
-                      <h4>Contact Details</h4>
-                      <p>Valerius Reizen</p>
-                      <span
-                         >Krusemanstraat 1 <br />
-                      1075 NB Amsterdam <br />
-                      </span>
-                      <ul>
-                         <li>+31 (0)20 67 30 773</li>
-                         <li>
-                            <a href="mailto:webmaster@example.com">info@valerius.nl</a>
-                         </li>
-                         <li>
-                            <a target="_blank" href="https://www.valerius.nl/"
-                               >www.valerius.nl</a
-                               >
-                         </li>
-                      </ul>
-                   </address>
                 </div>
              </div>
           </div>
-       </div>
-    </section>
-    
-    <!-- <section class="contact-footer">
-        <div class="container">
-          <p>Join us on Instagram</p>
-          <p>
-            <a href=""><i class="fa fa-instagram"></i></a>
-          </p>
-        </div>
-      </section> -->
-    <section class="contact-copy border-top-none">
-        <div class="container contact-insta-section">
+       </section>
+       <!-- <section class="contact-footer">
+          <div class="container">
             <p>Join us on Instagram</p>
             <p>
               <a href=""><i class="fa fa-instagram"></i></a>
             </p>
           </div>
-
-       <div class="container contact-copy-section">
-          <p>© Valerius Reizen | 2020</p>
-       </div>
-    </section>
-</div>
+          </section> -->
+       <section class="contact-copy border-top-none">
+          <div class="container contact-insta-section">
+             <p>Join us on Instagram</p>
+             <p>
+                <a href=""><i class="fa fa-instagram"></i></a>
+             </p>
+          </div>
+          <div class="container contact-copy-section">
+             <p>© Valerius Reizen | 2020</p>
+          </div>
+       </section>
+    </div>
  </div>
  <!-- end contact -->
