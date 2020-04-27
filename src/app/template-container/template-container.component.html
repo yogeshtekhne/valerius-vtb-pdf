@@ -71,9 +71,11 @@
                 </li> -->
               <ng-container *ngFor="let segment of itinerary.segments">
                 <ng-container *ngIf="segment.typeId == 19">
-                   <li *ngFor="let image of segment.media; let i=index">
-                      <img *ngIf="i<3" src="{{ image.url }}" />
+                  <ng-container *ngFor="let image of segment.media; let i=index">
+                   <li *ngIf="i<3">
+                      <img src="{{ image.url }}" />
                    </li>
+                  </ng-container>
                 </ng-container>
               </ng-container>
              </ul>
@@ -118,9 +120,11 @@
                                <ng-container *ngIf="segment.typeId == 19">
                                   <ng-container *ngFor="let element of segment.elements">
                                      <ng-container *ngIf="element.unitId == 17">
-                                        <li *ngFor="let image of element.media; let i = index">
-                                           <img *ngIf="i<3" src="{{ image.url }}" />
+                                      <ng-container *ngFor="let image of element.media; let i = index">
+                                        <li *ngIf="i<3">
+                                           <img src="{{ image.url }}" />
                                         </li>
+                                      </ng-container>
                                      </ng-container>
                                   </ng-container>
                                </ng-container>
