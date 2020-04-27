@@ -60,7 +60,7 @@
              </div> -->
           <div class="info-imglist">
              <ul>
-                <li>
+                <!-- <li>
                    <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/wordpress/medium/wp2226114-namibia-wallpapers.jpg" />
                 </li>
                 <li>
@@ -68,15 +68,16 @@
                 </li>
                 <li>
                    <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/wordpress/medium/wp2226114-namibia-wallpapers.jpg" />
-                </li>
-             </ul>
-             <!-- <ng-container *ngFor="let segment of itinerary.segments">
+                </li> -->
+              <ng-container *ngFor="let segment of itinerary.segments">
                 <ng-container *ngIf="segment.typeId == 19">
-                   <li *ngFor="let image of segment.media">
-                      <img src="{{ image.url }}" />
+                   <li *ngFor="let image of segment.media; let i=index">
+                      <img *ngIf="i<3" src="{{ image.url }}" />
                    </li>
                 </ng-container>
-                </ng-container> -->
+              </ng-container>
+             </ul>
+             
           </div>
           <div class="container">
              <div class="display-flex-start">
@@ -104,7 +105,7 @@
                       <div class="slider-wrapper">
                          <div class="inner">
                             <ul class="slider-image-fix">
-                               <li>
+                              <!--  <li>
                                   <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/lg/wp2226112-namibia-wallpapers.jpg" />
                                </li>
                                <li>
@@ -112,19 +113,20 @@
                                </li>
                                <li>
                                   <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/lg/wp2226121-namibia-wallpapers.jpg" />
-                               </li>
-                            </ul>
-                            <!-- <ng-container *ngFor="let segment of itinerary.segments">
+                               </li> -->
+                              <ng-container *ngFor="let segment of itinerary.segments">
                                <ng-container *ngIf="segment.typeId == 19">
                                   <ng-container *ngFor="let element of segment.elements">
                                      <ng-container *ngIf="element.unitId == 17">
-                                        <article *ngFor="let image of element.media">
-                                           <img src="{{ image.url }}" />
-                                        </article>
+                                        <li *ngFor="let image of element.media; let i = index">
+                                           <img *ngIf="i<3" src="{{ image.url }}" />
+                                        </li>
                                      </ng-container>
                                   </ng-container>
                                </ng-container>
-                               </ng-container> -->
+                               </ng-container>
+                            </ul>
+                            
                          </div>
                          <!-- .inner -->
                       </div>
