@@ -63,14 +63,23 @@
           </div> -->
        <div class="info-imglist">
           <ul>
-             <ng-container *ngFor="let segment of itinerary.segments">
+                <li>
+                    <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/wordpress/medium/wp2226114-namibia-wallpapers.jpg" />
+                </li>
+                <li>
+                    <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/wordpress/medium/wp2226114-namibia-wallpapers.jpg" />
+                </li>
+                <li>
+                    <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/wordpress/medium/wp2226114-namibia-wallpapers.jpg" />
+                </li>
+         </ul>
+             <!-- <ng-container *ngFor="let segment of itinerary.segments">
                 <ng-container *ngIf="segment.typeId == 19">
                    <li *ngFor="let image of segment.media">
                       <img src="{{ image.url }}" />
                    </li>
                 </ng-container>
-             </ng-container>
-          </ul>
+             </ng-container> -->
        </div>
        <div class="container">
           <div class="display-flex-start">
@@ -97,7 +106,18 @@
                    </ng-container>
                    <div class="slider-wrapper">
                       <div class="inner">
-                         <ng-container *ngFor="let segment of itinerary.segments">
+                        <ul class="slider-image-fix">
+                            <li>
+                                <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/lg/wp2226112-namibia-wallpapers.jpg" />
+                            </li>
+                             <li>
+                                <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/lg/wp2226114-namibia-wallpapers.jpg" />
+                             </li>
+                             <li>
+                                <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/lg/wp2226121-namibia-wallpapers.jpg" />
+                             </li>
+                        </ul>
+                         <!-- <ng-container *ngFor="let segment of itinerary.segments">
                             <ng-container *ngIf="segment.typeId == 19">
                                <ng-container *ngFor="let element of segment.elements">
                                   <ng-container *ngIf="element.unitId == 17">
@@ -107,7 +127,7 @@
                                   </ng-container>
                                </ng-container>
                             </ng-container>
-                         </ng-container>
+                         </ng-container> -->
                       </div>
                       <!-- .inner -->
                    </div>
@@ -203,7 +223,7 @@
      <div class="page-inner">
     <section class="daily-itinerary">
        <div class="container">
-          <div class="row">
+          <!-- <div class="row">
              <h1 class="main-title">
                 {{
                 itinerary.titel_itinerary
@@ -211,7 +231,7 @@
                 : "Your personal Daily Itinerary"
                 }}
              </h1>
-          </div>
+          </div> -->
           <div class="row">
              <div
                 class="daily-itinerary-section"
@@ -329,7 +349,7 @@
  </div>
  <!-- end daily itinerary -->
  <!-- start overview -->
- <div class="page">
+ <div class="dynamic-pages">
      <div class="page-inner">
     <section class="overview-your-trip">
        <div class="container">
@@ -456,7 +476,16 @@
      <div class="page-inner">
     <section class="information">
        <div class="info-imglist">
-          <ng-container *ngFor="let segment of itinerary.segments">
+           
+        <ul>
+                <li>
+                    <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/wordpress/medium/wp2226114-namibia-wallpapers.jpg" />
+                </li>
+                <li>
+                    <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/wordpress/medium/wp2226114-namibia-wallpapers.jpg" />
+                </li>
+        </ul>
+          <!-- <ng-container *ngFor="let segment of itinerary.segments">
              <ng-container *ngIf="segment.typeId == 20">
                 <ul>
                    <li *ngFor="let image of segment.media">
@@ -464,7 +493,7 @@
                    </li>
                 </ul>
              </ng-container>
-          </ng-container>
+          </ng-container> -->
        </div>
        <div class="container padding-top-bottom-30px">
           <div class="row">
@@ -536,7 +565,7 @@
                       class="contact-image"
                       src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/sm/MARJA.jpg"
                       />
-                   <a class="buttonUrl" href="">Contact me</a>
+                   <a class="buttonUrl" href="mailto:someone@example.com?">Contact me</a>
                 </div>
                 <div class="contact-inner-section">
                    <div class="row">
@@ -610,8 +639,24 @@
           </div>
        </div>
     </section>
+    
+    <!-- <section class="contact-footer">
+        <div class="container">
+          <p>Join us on Instagram</p>
+          <p>
+            <a href=""><i class="fa fa-instagram"></i></a>
+          </p>
+        </div>
+      </section> -->
     <section class="contact-copy border-top-none">
-       <div class="container">
+        <div class="container contact-insta-section">
+            <p>Join us on Instagram</p>
+            <p>
+              <a href=""><i class="fa fa-instagram"></i></a>
+            </p>
+          </div>
+
+       <div class="container contact-copy-section">
           <p>© Valerius Reizen | 2020</p>
        </div>
     </section>
