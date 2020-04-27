@@ -458,11 +458,13 @@
        <div class="info-imglist">
           <ng-container *ngFor="let segment of itinerary.segments">
              <ng-container *ngIf="segment.typeId == 20">
-                <ul>
-                   <li *ngFor="let image of segment.media">
-                      <img src="{{ image.url }}" />
-                   </li>
-                </ul>
+                  <ul>
+                     <ng-container *ngFor="let image of segment.media; let i=index">
+                        <li *ngIf="i<3">
+                           <img src="{{ image.url }}" />
+                        </li>
+                     </ng-container>
+                  </ul>
              </ng-container>
           </ng-container>
        </div>
