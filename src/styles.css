@@ -149,6 +149,16 @@ section {
   align-items: flex-start;
   width: 100%;
 }
+.daily-itinerary-section .display-flex-start {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: flex-start;
+  width: 100%;
+  vertical-align: middle;
+  align-items: center;
+}
 
 /* .img-fullscreen {
   width: 100%;
@@ -900,7 +910,7 @@ nav .navbar-right {
 .home-discover .popup .popup-scroll,
 .itinerary-url .popup .popup-scroll,
 .destination-url .popup .popup-scroll {
-  height: 405px;
+  height: auto;
   overflow: auto;
   padding: 0 15px 0 0;
   margin: 0px 0 0 0;
@@ -1552,7 +1562,7 @@ header img {
 }
 
 .overview-your-trip .overview-map iframe {
-  width: 374px;
+  width: 373px;
   height: 300px;
   margin: 0 0 45px 0;
 }
