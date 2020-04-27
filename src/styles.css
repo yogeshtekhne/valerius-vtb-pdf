@@ -22,7 +22,8 @@ body {
   background: #efeff0;
 }
 #inputElement[_ngcontent-c1] {
-  display: none;
+  /* display: none; */
+  position: absolute !important;
 }
 .pdf-wrapper, #inputElement > * {
   display: block;
