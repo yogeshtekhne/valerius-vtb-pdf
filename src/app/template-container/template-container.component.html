@@ -164,8 +164,8 @@
                             {{ itinerary.destinationH2 }}
                          </h6>
                          <p [innerHTML]="itinerary.destinationH3"></p>
-                         <p [innerHTML]="itinerary.destinationContent"></p>
-                         <!-- <div class="destination-url">
+                         <div class="destination-url">
+                            <!-- <a class="read-more" href="">Read more</a>     -->
                             <ng-container
                                *ngIf="
                                itinerary.destinationH1 ||
@@ -195,17 +195,18 @@
                                      <h4>{{ itinerary.destinationH2 }}</h4>
                                      <div class="popup-scroll">
                                         <p [innerHTML]="itinerary.destinationH3"></p>
-                                        
+                                        <p [innerHTML]="itinerary.destinationContent"></p>
                                      </div>
                                   </div>
                                </div>
                             </ng-container>
+                            <!-- <a class="read-more" href="">{{ itinerary.button_itinerary?itinerary.button_itinerary:'Daily Itinerary' }}</a>     -->
                             <label class="read-more" id="daily-tab" for="daily">{{
                             itinerary.button_itinerary
                             ? itinerary.button_itinerary
                             : "Daily Itinerary"
                             }}</label>
-                         </div> -->
+                         </div>
                       </div>
                    </ng-container>
                 </ng-container>
