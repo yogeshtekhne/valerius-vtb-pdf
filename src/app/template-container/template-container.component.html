@@ -332,8 +332,15 @@
                             </div>
                             <!-- .slider-dot-control -->
                             <p class="optional-dsc">
-                               Optional photo descriptions - one line | The Waterburg
-                               Plateau is a particularly prominent location
+                              <ng-container *ngFor="let element of segment.elements">
+                                <ng-container *ngIf="element.unitId == 17">
+                                  <ng-container *ngFor="let extra of element.TSOrderline.extraFieldValues">
+                                    <ng-container *ngIf="extra.name=='remarks'">
+                                      {{ extra.value }}
+                                    </ng-container>
+                                  </ng-container>
+                                </ng-container>
+                              </ng-container>
                             </p>
                          </div>
                       </div>
