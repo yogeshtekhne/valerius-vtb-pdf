@@ -332,8 +332,15 @@
                             </div>
                             <!-- .slider-dot-control -->
                             <p class="optional-dsc">
-                               Optional photo descriptions - one line | The Waterburg
-                               Plateau is a particularly prominent location
+                              <ng-container *ngFor="let element of segment.elements">
+                                <ng-container *ngIf="element.unitId == 17">
+                                  <ng-container *ngFor="let extra of element.TSOrderline.extraFieldValues">
+                                    <ng-container *ngIf="extra.name=='remarks'">
+                                      {{ extra.value }}
+                                    </ng-container>
+                                  </ng-container>
+                                </ng-container>
+                              </ng-container>
                             </p>
                          </div>
                       </div>
@@ -564,11 +571,12 @@
                 <div class="display-flex-start">
                    <div class="contact-inner-section">
                       <h1>We know the secret places</h1>
-                      <img
+                      <div [innerHTML]="itinerary.contactImage"></div>
+                      <!-- <img
                          class="contact-image"
                          src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/sm/MARJA.jpg"
-                         />
-                      <a class="buttonUrl" href="mailto:someone@example.com?">Contact me</a>
+                         /> -->
+                      <a class="buttonUrl" href="mailto:{{ itinerary.contactEmail }}">Contact me</a>
                    </div>
                    <div class="contact-inner-section">
                       <div class="row">
@@ -585,17 +593,8 @@
                          </p>
                       </div>
                       <div class="row">
-                         <h2>Marja Keuker</h2>
-                         <h3>Travel designer | Valerius Reizen</h3>
-                         <p>
-                            With more than 35 years experience in tourism I still enjoy
-                            and learn from every trip I make! In April 2004 I started
-                            working for Valerius, the specialist for unique travel within
-                            Europe and outside. My specialty is customized travelling for
-                            the individual traveller, families, fraternities and large
-                            groups. It’s a challenge each time to make a unique proposal
-                            after a lot of puzzling!
-                         </p>
+                        <h2>{{ itinerary.contactName }}</h2>
+                        <h3 [innerHTML]="itinerary.contactText"></h3>
                       </div>
                       <!-- <div class="row">
                          <ul class="contact-images">
