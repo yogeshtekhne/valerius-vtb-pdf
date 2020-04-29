@@ -228,7 +228,8 @@ const customTransforms = {
     obj.dst.contactName = obj.dst.TSOrder.bookedByInfo.name + ' ' + obj.dst.TSOrder.bookedByInfo.surname;
     obj.dst.contactImage = contactSignature.match(/<image>(.*?)<\/image>/)[1];
     obj.dst.contactEmail = contactSignature.match(/<contact>(.*?)<\/contact>/)[1];
-    obj.dst.contactText = contactSignature.match(/<text>(.*?)<\/text>/)[1];
+    // obj.dst.contactText = contactSignature.match(/<text>(.*?)<\/text>/)[1];
+    obj.dst.destinationContent = element.additionalText.substring(element.additionalText.indexOf('</h3>') + 5, (element.additionalText.length));
 
     return obj;
   },
