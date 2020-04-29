@@ -7,7 +7,6 @@
       {"function": "removeolPrices", "params": {}},
       {"function": "parseDestinationContent", "params": {}},
       {"function": "parsePracticalInformation", "params": {}},
-      {"function": "getMapPoints", "params": {}},
       {"function": "getdailyItinerary", "params": {}},
       {"function": "addIconChar", "params": {}},
       {"function": "coverImage", "params": {}},

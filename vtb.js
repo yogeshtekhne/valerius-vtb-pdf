@@ -99,22 +99,22 @@ const customTransforms = {
     obj.dst.contents = contents;
     return obj;
   },
-  'getMapPoints': (obj, params) => {
+  // 'getMapPoints': (obj, params) => {
 
-    let markers = [];
-    obj.dst.segments.forEach((segment) => {
+  //   let markers = [];
+  //   obj.dst.segments.forEach((segment) => {
 
-      segment.elements.forEach((element) => {
-        if (element.maps) {
-          if (element.maps.latitude) {
-            markers.push(element.maps)
-          }
-        }
-      });
-    });
-    obj.dst.markers = markers;
-    return obj;
-  },
+  //     segment.elements.forEach((element) => {
+  //       if (element.maps) {
+  //         if (element.maps.latitude) {
+  //           markers.push(element.maps)
+  //         }
+  //       }
+  //     });
+  //   });
+  //   obj.dst.markers = markers;
+  //   return obj;
+  // },
   'getdailyItinerary': (obj, params) => {
 
     let dailyItinerary = [];
@@ -132,6 +132,7 @@ const customTransforms = {
     let atoz = 'ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ';
     let i = -1; 
     let prevIsDeafult = false;
+    let mapPoints = [];
     obj.dst.segments.forEach((segment) => {
 
 
@@ -139,6 +140,7 @@ const customTransforms = {
       
         if(prevIsDeafult == false) {
           i++;
+          mapPoints.push(segment.maps);
         }
         segment.iconChar = atoz[i];
         prevIsDeafult = true;
@@ -148,6 +150,58 @@ const customTransforms = {
       }
       
     });
+   
+    i = 0;
+    let waypoints = waypointsConfig = [];
+    mapPoints.forEach((map) => {
+      if(i == 0) {
+        
+        obj.dst.lat = mapPoints[i].latitude;
+        obj.dst.lng = mapPoints[i].longitude;
+        obj.dst.origin = { lat: mapPoints[i].latitude, lng: mapPoints[i].longitude };
+
+      } else if (mapPoints.length -1 == i) {
+        
+        waypoints.push({
+          location: { lat: mapPoints[i].latitude, lng: mapPoints[i].longitude },
+          stopover: false,
+        });
+
+        waypointsConfig.push({
+          infoWindow: `<h4>A<h4>
+            <a href='http://google.com' target='_blank'>A</a>
+            `,
+          icon: 'http://i.imgur.com/7teZKif.png',
+        });
+        
+      } else {
+        
+        obj.dst.destination = { lat: mapPoints[i].latitude, lng: mapPoints[i].longitude };
+      }
+      i++;
+    });
+
+    obj.dst.renderOptions = {
+      suppressMarkers: true,
+    };
+
+    
+    
+    obj.dst.waypoints = waypoints;
+    
+    obj.dst.markerOptions = {
+      origin: {
+        infoWindow: 'Origin.',
+        icon: 'http://media.wwtg.nl/original/original/map-pin-nieuw.png',
+      },
+      waypoints: waypointsConfig,
+      destination: {
+        infoWindow: 'Destination',
+        icon: 'http://i.imgur.com/7teZKif.png',
+      },
+    };
+
+    obj.dst.mapPoints = mapPoints;
     return obj;
 
   },
