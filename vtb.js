@@ -60,16 +60,18 @@ const customTransforms = {
   },
   'parseDestinationContent':(obj, params) => {
 
+    obj.dst.destinationH1 = obj.dst.destinationH2 = obj.dst.destinationH3 = obj.dst.destinationContent = '';
     obj.dst.segments.forEach((segment) => {
       if(segment.typeId == 19) {
         segment.elements.forEach((element) => {
           if(element.unitId == 17) {
-
-            obj.dst.destinationH1 = element.additionalText.match(/<h1>(.*?)<\/h1>/)[1];
-            obj.dst.destinationH2 = element.additionalText.match(/<h2>(.*?)<\/h2>/)[1];
-            obj.dst.destinationH3 = element.additionalText.match(/<h3>(.*?)<\/h3>/)[1];
-            obj.dst.destinationContent = element.additionalText.match(/<\/h3>(.*?)<\/body>/)[1];
-
+            if(element.additionalText.includes('</h1>') && element.additionalText.includes('</h2>') && element.additionalText.includes('</h3>')) {
+              obj.dst.destinationH1 = element.additionalText.match(/<h1>(.*?)<\/h1>/)[1];
+              obj.dst.destinationH2 = element.additionalText.match(/<h2>(.*?)<\/h2>/)[1];
+              obj.dst.destinationH3 = element.additionalText.match(/<h3>(.*?)<\/h3>/)[1];
+              //obj.dst.destinationContent = element.additionalText.match(/<\/h3>/)[1];
+              obj.dst.destinationContent = element.additionalText.substring(element.additionalText.indexOf('</h3>') + 5, (element.additionalText.length));
+            }
           }
         });
       }
