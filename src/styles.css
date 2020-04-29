@@ -1967,7 +1967,7 @@ header img {
   letter-spacing: 2px;
 }
 
-.contact .contact-inner-section img.contact-image {
+.contact .round-img img {
   display: block;
   text-align: center;
   margin: 127px auto 25px;
@@ -2000,12 +2000,17 @@ header img {
   align-items: flex-start; */
   display: table;
   width: 60%;
-  margin: 20px auto 0;
+  margin: 40px auto 0;
 }
 
 .row .contact-images li {
-  width: 33.3%;
+  /* width: 33.3%;
+  float: left; */
+  width: 31.3%;
   float: left;
+}
+.row .contact-images li:nth-child(2) {
+  margin: 0 10px;
 }
 
 .row .contact-images li:last-child img {
