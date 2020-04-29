@@ -11,6 +11,7 @@ import { environment } from '../environments/environment';
 import { ItineraryResolver } from './resolvers/itinerary.resolver';
 import { TemplatePageComponent } from './template-page/template-page.component';
 import { AgmCoreModule } from '@agm/core';
+import { AgmDirectionModule } from 'agm-direction';
 
 
 @NgModule({
@@ -32,8 +33,9 @@ import { AgmCoreModule } from '@agm/core';
       }
     }]),
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyDbQRG8PPZbPN0EUsOEm-Lbj0sYN4Ho_VI'
-    })
+      apiKey: 'AIzaSyB5MpYykiGCY4nKXWvtkwj5S78o781R3Kg'
+    }),
+    AgmDirectionModule
   ],
   providers: [ItineraryResolver],
   bootstrap: [AppComponent]

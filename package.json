@@ -26,6 +26,7 @@
     "@sitespirit/vtb-component-library": "^0.1.8",
     "@sitespirit/vtb-transformer": "^1.0.7",
     "@thisissoon/angular-inviewport": "^4.2.0",
+    "agm-direction": "^0.7.9",
     "core-js": "^2.5.4",
     "ngx-gallery": "^5.10.0",
     "rxjs": "^6.3.3",
