@@ -10,10 +10,10 @@
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
   width: 100%;
   padding: 0;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
   font-size: 14px;
@@ -21,15 +21,47 @@ body {
   overflow-x: hidden;
   background: #efeff0;
 }
-#inputElement[_ngcontent-c1] {
-  /* display: none; */
-  position: absolute !important;
+div {
+  box-sizing: border-box;
 }
-.pdf-wrapper, #inputElement > * {
+
+/* CKE overrides */
+
+body .ck.ck-editor__editable_inline> :first-child {
+  margin-top: 0;
+}
+
+body .ck.ck-editor__editable_inline> :last-child {
+  margin-bottom: 0;
+}
+
+body .ck.ck-editor__editable_inline {
+  padding: 0;
+  margin: 0;
+  border: none;
+  overflow: hidden;
+}
+
+body .ck.ck-editor__editable_inline:not(.ck-editor__nested-editable).ck-focused {
+  border: none;
+  box-shadow: none;
+}
+
+/* end CKE overrides */
+
+
+.pdf-wrapper,
+#inputElement>* {
   display: block;
   max-width: 796.8px;
   margin: 0 auto;
 }
+
+app-template-container,
+#inputElement>* {
+  visibility: hidden;
+}
+
 .page,
 .dynamic-pages {
   box-shadow: 0 0 0 0.75pt #d1d1d1, 0 0 3pt 0.75pt #ccc;
@@ -41,8 +73,19 @@ body {
   background-color: white;
   page-break-after: always;
 }
+
+/* .page-inner {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  width: 100%;
+  height: calc(100% - 0px);
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 0 15px;
+} */
 .page-inner {
-  position: initial;
+  position: absolute;
   left: 0;
   top: 0;
   width: 100%;
@@ -53,6 +96,43 @@ body {
   /* overflow: hidden; */
   padding: 15px;
   /* padding: 15px 15px 60px; */
+}
+
+.page-inner.page-no-header {
+  top: 0;
+  height: calc(100% - 60px);
+}
+
+.page-inner.page-no-footer {
+  height: calc(100% - 420px);
+}
+
+.page-inner.page-no-header.page-no-footer {
+  top: 0;
+  height: 100%;
+}
+
+.page-header {
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.page-footer {
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px 45px;
+  text-align: center;
+}
+
+
+.full-height-page-inner {
+  height: 100%;
+  top: 0;
+  padding: 0;
 }
 
 
@@ -122,6 +202,8 @@ ol {
   background: transparent;
   margin: 0 auto;
   padding: 0 0px;
+  display: inline-block;
+  width: 100%;
 }
 
 section {
@@ -129,11 +211,13 @@ section {
 }
 
 .row {
-  display: -webkit-box;
+  /* display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+  display: inline-block;
+  width: 100%;
 }
 
 .display-flex {
@@ -150,14 +234,17 @@ section {
   width: 100%;
 }
 .daily-itinerary-section .display-flex-start {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
-  -webkit-align-items: flex-start;
+  display: initial;
   width: 100%;
-  vertical-align: middle;
-  align-items: center;
+  float: left;
+}
+.daily-itinerary-section .daily-itinerary-days {
+  width: 50%;
+  float: left;
+}
+.daily-itinerary-section .daily-itinerary-days .itinerary-url {
+  float: left;
+  margin: 0;
 }
 
 /* .img-fullscreen {
@@ -217,6 +304,8 @@ section {
   border: solid 1px #ee7203;
   padding: 10px 25px;
   cursor: pointer;
+  display: inline-block;
+  margin: 15px 0 0 0;
 }
 
 .read-more:hover {
@@ -1851,10 +1940,10 @@ header img {
 .daily-itinerary {
   padding-bottom: 0;
 }
-
-.daily-itinerary .daily-itinerary-section {
+.daily-itinerary-section {
   position: relative;
   padding: 0 15px;
+  display: inline-block;
 }
 
 .daily-itinerary .daily-itinerary-section::before {

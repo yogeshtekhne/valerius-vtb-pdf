@@ -211,13 +211,20 @@
                 </ng-container>
              </div>
           </div>
+          <!-- <div class="contact-copy">
+             <div class="container">
+                <p>© Valerius Reizen | 2020</p>
+             </div>
+          </div> -->
+       </section>
+    </div>
+    
+   
           <div class="contact-copy">
              <div class="container">
                 <p>© Valerius Reizen | 2020</p>
              </div>
           </div>
-       </section>
-    </div>
  </div>
  <!-- end destination -->
  <!-- start daily itinerary -->
@@ -455,7 +462,7 @@
                          aria-hidden="false"
                          tabindex="0"
                          ></iframe> -->
-                      <agm-map [latitude]="itinerary.lat" [longitude]="itinerary.lng" [zoom]="10">
+                      <!-- <agm-map [latitude]="itinerary.lat" [longitude]="itinerary.lng" [zoom]="10">
                         <agm-direction 
                           [origin]="itinerary.origin" 
                           [destination]="itinerary.destination" 
@@ -465,7 +472,7 @@
                           [travelMode]="'DRIVING'"
                         >
                         </agm-direction>
-                      </agm-map>
+                      </agm-map> -->
                       <div class="overview-include">
                          <h5>Included in trip</h5>
                          {{ itinerary.include_trip_text }}
@@ -492,7 +499,7 @@
  </div>
  <!-- end overview -->
  <!-- start information -->
- <div class="page">
+ <div class="dynamic-pages">
     <div class="page-inner">
        <section class="information">
           <div class="info-imglist">
@@ -569,7 +576,7 @@
  </div>
  <!-- end information -->
  <!-- start contact -->
- <div class="page">
+ <div class="dynamic-pages">
     <div class="page-inner">
        <section class="contact">
           <div class="container">
