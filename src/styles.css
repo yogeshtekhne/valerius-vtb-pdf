@@ -177,14 +177,6 @@ ol {
 
 /* end reset css */
 
-/* start mobile menu */
-
-.mobile-menu {
-  display: none;
-}
-
-/* end mobile menu */
-
 /* start common css */
 
 .container {
@@ -210,24 +202,6 @@ section {
   width: 100%;
 }
 
-.display-flex {
-  display: flex;
-  justify-content: center;
-  vertical-align: middle;
-  align-items: center;
-}
-
-.display-flex-start {
-  /* display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 100%; */
-}
-.daily-itinerary-section .display-flex-start {
-  /* display: inline-block; */
-  /* width: 100%;
-  float: left; */
-}
 .daily-itinerary-section .daily-itinerary-days {
   width: 50%;
   float: left;
