@@ -9,7 +9,7 @@ const customTransforms = {
 
     obj.dst.atoz = 'ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
-    if (!obj.dst.extraFieldValues) return;
+    if (!obj.dst.extraFieldValues) return obj;
 
     obj.dst.youtubeUrl = obj.dst.button_readmore = obj.dst.button_itinerary = titel_itinerary = '';
     obj.dst.titel_overview = obj.dst.include_trip_text = obj.dst.titel_information = obj.dst.titel_contact = '';
@@ -154,7 +154,8 @@ const customTransforms = {
     });
    
     i = 0;
-    let waypoints = waypointsConfig = [];
+    let waypoints = [];
+    let waypointsConfig = [];
     mapPoints.forEach((map) => {
       if(i == 0) {
         
@@ -163,6 +164,10 @@ const customTransforms = {
         obj.dst.origin = { lat: mapPoints[i].latitude, lng: mapPoints[i].longitude };
 
       } else if (mapPoints.length -1 == i) {
+        
+        obj.dst.destination = { lat: mapPoints[i].latitude, lng: mapPoints[i].longitude };
+
+      } else {
         
         waypoints.push({
           location: { lat: mapPoints[i].latitude, lng: mapPoints[i].longitude },
@@ -175,10 +180,7 @@ const customTransforms = {
             `,
           icon: 'http://i.imgur.com/7teZKif.png',
         });
-        
-      } else {
-        
-        obj.dst.destination = { lat: mapPoints[i].latitude, lng: mapPoints[i].longitude };
+
       }
       i++;
     });
@@ -194,7 +196,7 @@ const customTransforms = {
     obj.dst.markerOptions = {
       origin: {
         infoWindow: 'Origin.',
-        icon: 'http://media.wwtg.nl/original/original/map-pin-nieuw.png',
+        icon: 'http://i.imgur.com/7teZKif.png',
       },
       waypoints: waypointsConfig,
       destination: {
@@ -223,7 +225,7 @@ const customTransforms = {
 
     obj.dst.contactName = obj.dst.contactImage = obj.dst.contactEmail = obj.dst.contactText = '';
 
-    if (!obj.dst.TSOrder.bookedByInfo) return;
+    if (!obj.dst.TSOrder.bookedByInfo) return obj;
 
     let contactSignature = obj.dst.TSOrder.bookedByInfo.signature;
 

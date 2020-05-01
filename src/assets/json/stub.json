@@ -1,6 +1,6 @@
 {
-  "id": 29,
-  "name": "Sander de Rooij [2020-04-17 17:36:12]",
+  "id": 45,
+  "name": "000045 - Sander de Rooij [2020-04-30 12:09:04]",
     "TSOrder": {
       "texts": {
         "general": "<html>\n<head>\n\t<title><\/title>\n\t\n<\/head>\n<body aria-readonly=\"false\" data-wsc-instance=\"true\">\n<h3>Programma&nbsp;<\/h3>\n\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"680\">\n\t<tbody>\n\t\t<tr valign=\"top\">\n\t\t\t<td valign=\"top\">00-00-2020<\/td>\n\t\t\t<td valign=\"top\">00-00-2020<\/td>\n\t\t\t<td valign=\"top\">Locatie Hotel<\/td>\n\t\t\t<td valign=\"top\">Kamertype en verzorging<\/td>\n\t\t\t<td valign=\"top\">verzorging<\/td>\n\t\t<\/tr>\n\t\t<tr valign=\"top\">\n\t\t\t<td valign=\"top\"><\/td>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t<\/tr>\n\t\t<tr>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t<\/tr>\n\t\t<tr>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t<\/tr>\n\t\t<tr>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t<\/tr>\n\t\t<tr>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t<\/tr>\n\t\t<tr>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t\t<td valign=\"top\"><\/td>\n\t\t<\/tr>\n\t<\/tbody>\n<\/table>\n<\/body>\n<\/html>",
@@ -10,7 +10,7 @@
         "id": 8,
         "name": "Ana",
         "surname": "Beco",
-        "signature": "<image><img src=\"https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/sm/MARJA.jpg\"><\/image>\n<contact>adm@valerius.nl<\/contact>\n<text>Travel designer <br \/><br \/> tekst over de medewerker hier<\/text>\n"
+        "signature": "<image><img src=\"#\"><\/image>\n<contact>adm@valerius.nl<\/contact>\n<text>Travel designer <br \/><br \/> tekst over de medewerker hier<\/text>\n"
       },
       "id": 195,
       "sourceDescription": "#000195: Sander de Rooij"
@@ -46,7 +46,7 @@
             "link_type": "order",
             "link_id": 195,
             "value": "Naam van de reis hier",
-            "vtbObjectId": "a3ct5890n4jxa2qbalth2",
+            "vtbObjectId": "08bxqn11n6zxmn1fyttsmg",
             "translatedName": "Naam trip"
           },
           {
@@ -69,7 +69,7 @@
             "link_type": "order",
             "link_id": 195,
             "value": "NA",
-            "vtbObjectId": "xsu25iy9wbow3nsjz6zf",
+            "vtbObjectId": "x0yur2iw7ceose0z1ckln",
             "translatedName": "Destination"
           },
           {
@@ -107,7 +107,7 @@
             "link_type": "order",
             "link_id": 195,
             "value": "Afrika",
-            "vtbObjectId": "ykcm8rlrlvuswy9a5q55e",
+            "vtbObjectId": "k34ql5wdyg4az35m1n69o",
             "translatedName": "Continent"
           },
           {
@@ -144,7 +144,7 @@
             "link_type": "order",
             "link_id": 195,
             "value": "Rondreis",
-            "vtbObjectId": "4xgmeth8ba6ba2n3m3ojk5",
+            "vtbObjectId": "wnlc3ac046ls2pe0sv7pm",
             "translatedName": "Traveltype"
           },
           {
@@ -167,11 +167,11 @@
             "link_type": "order",
             "link_id": 195,
             "value": null,
-            "vtbObjectId": "ki6p7dj48fbmgke1pfq2l",
+            "vtbObjectId": "xlmko201uhleafxthj8bs",
             "translatedName": "Show prijs pp"
           }
         ],
-        "vtbObjectId": "pzezcy40n2wv3enyrkvbd"
+        "vtbObjectId": "7fk78u98wqlzetwy451ifd"
       },
       {
         "id": 8,
@@ -204,7 +204,7 @@
             "link_type": "order",
             "link_id": 195,
             "value": null,
-            "vtbObjectId": "kgx3qr33j2t29y0y8nbir",
+            "vtbObjectId": "79y66ehj4k8tuac284esk",
             "translatedName": "Titel Destination"
           },
           {
@@ -227,7 +227,7 @@
             "link_type": "order",
             "link_id": 195,
             "value": null,
-            "vtbObjectId": "8bpm6auoxhmgxs7ukl6igq",
+            "vtbObjectId": "zow76qm173pp7focf81wv",
             "translatedName": "Titel itinerary"
           },
           {
@@ -250,7 +250,7 @@
             "link_type": "order",
             "link_id": 195,
             "value": null,
-            "vtbObjectId": "yvjdsvzrzkrniuzwt99i9k",
+            "vtbObjectId": "44dy61843561adpxcacag",
             "translatedName": "Titel Overview"
           },
           {
@@ -273,7 +273,7 @@
             "link_type": "order",
             "link_id": 195,
             "value": null,
-            "vtbObjectId": "3dthq06dz8mxdwhiosg2kl",
+            "vtbObjectId": "fqegztbtsalnipwnflq7k",
             "translatedName": "Titel Information"
           },
           {
@@ -296,11 +296,11 @@
             "link_type": "order",
             "link_id": 195,
             "value": null,
-            "vtbObjectId": "43wrl3g06n8jc59o71a7i",
+            "vtbObjectId": "oj72h1onntlejrlagcmk9c",
             "translatedName": "Titel Contact"
           }
         ],
-        "vtbObjectId": "d3s24xlwejh3jriz3gmqx4"
+        "vtbObjectId": "1o8xriot118d3vxqdclb3f"
       },
       {
         "id": 9,
@@ -329,7 +329,7 @@
             "maxlength": null,
             "maxlength_enforce": 0,
             "translated_name": "Button Discover",
-            "vtbObjectId": "nlifzwiszlechrkalgs5s",
+            "vtbObjectId": "h0cng3pvc3o8zsnlgciup",
             "translatedName": "Button Discover"
           },
           {
@@ -352,7 +352,7 @@
             "link_type": "order",
             "link_id": 195,
             "value": null,
-            "vtbObjectId": "jcmic03xxoqgl8hr1986",
+            "vtbObjectId": "utsyjywm0alwhrr3941gi",
             "translatedName": "Button Read more"
           },
           {
@@ -375,7 +375,7 @@
             "link_type": "order",
             "link_id": 195,
             "value": null,
-            "vtbObjectId": "4mhokxpaj2wesogtpcdy2l",
+            "vtbObjectId": "2vpm126wnsuecsobzj7mfr",
             "translatedName": "Button Itinerary"
           },
           {
@@ -401,8 +401,8 @@
             "field_value_link_id": 1777,
             "link_type": "order",
             "link_id": 195,
-            "value": "A land of contrast & dramatic beauty - exuding a timeless appeal. From awe-inspiring landscapes combined with untamed wildlife, it\u2019s a boutique bucket list destination.\u201d\n\nIn south western Africa lies a land of compelling fascination. A land for those who worship at the shrine of Africa at its most resplendent, but also at its most unconventional. This is Namibia.",
-            "vtbObjectId": "5stuq6dfwss9o6v86jqj",
+            "value": null,
+            "vtbObjectId": "ekp4s70vj2ukechj18ww4i",
             "translatedName": "Include trip text"
           },
           {
@@ -424,8 +424,8 @@
             "field_value_link_id": 1778,
             "link_type": "order",
             "link_id": 195,
-            "value": true,
-            "vtbObjectId": "0dy6rmsp7jteje67sgiyh7",
+            "value": null,
+            "vtbObjectId": "xb1vb4da6mrhzznqmrxnm",
             "translatedName": "Toon prijs VTB"
           },
           {
@@ -448,11 +448,11 @@
             "link_type": "order",
             "link_id": 195,
             "value": null,
-            "vtbObjectId": "rvnoqhn8l2c5p7e19af7sk",
+            "vtbObjectId": "0up3awkw2kfq673jamnxsm",
             "translatedName": "Youtube url"
           }
         ],
-        "vtbObjectId": "mq7r1sx9uk71yuni3tcjd"
+        "vtbObjectId": "i0aoaghwau8xmiaqj9imi"
       },
       {
         "id": 3,
@@ -488,7 +488,7 @@
             "link_type": "order",
             "link_id": 195,
             "value": null,
-            "vtbObjectId": "1dczwuqs833hyo6hndt80f",
+            "vtbObjectId": "wq4qf9wtuflipewopz9w",
             "translatedName": "Decline reason"
           },
           {
@@ -516,11 +516,11 @@
             "link_type": "order",
             "link_id": 195,
             "value": null,
-            "vtbObjectId": "w7dfwqs3dklcmc8za451xh",
+            "vtbObjectId": "xbib2tt7iipttw92jfmzdq",
             "translatedName": "Source"
           }
         ],
-        "vtbObjectId": "iqgz42k73l9a4d2z65anv"
+        "vtbObjectId": "fsa5mtb3sis1r8k6vwe2mq"
       },
       {
         "id": 6,
@@ -551,11 +551,11 @@
             "link_type": "order",
             "link_id": 195,
             "value": null,
-            "vtbObjectId": "t9lwgcj8rg7rrfxxc2hc9",
+            "vtbObjectId": "0e4295x4aj0660yx67emdsi",
             "translatedName": "Cancelled"
           }
         ],
-        "vtbObjectId": "vt7fus208upvm85ndql8g"
+        "vtbObjectId": "2fuuut1442y76l2rvfk6q3"
       }
     ],
     "participants": {
@@ -568,6 +568,7 @@
           "title": "2",
           "sex": "female",
           "birthdate": "",
+          "age_calc_type": "birthdate",
           "partyName": "party 1"
         },
         {
@@ -578,6 +579,7 @@
           "title": "",
           "sex": "",
           "birthdate": "1920-04-01",
+          "age_calc_type": "birthdate",
           "partyName": "party 1"
         }
       ]
@@ -586,8 +588,10 @@
       {
         "isFlight": false,
         "typeId": 18,
+        "typeName": "Lijmsteen",
         "title": "Etosha to Twijfelfontein",
         "subTitle": "Selfdrive by 4wd 400km approx 8 hours",
+        "pageBreak": false,
         "content": "",
         "TSBlock": {
           "id": 1052
@@ -607,7 +611,7 @@
           "latitude": null,
           "longitude": null
         },
-        "vtbObjectId": "yopfv03youm5wwcdioc91v",
+        "vtbObjectId": "o2dx1fqt7lekcqnmevzztg",
         "carRentalElements": [
           
         ],
@@ -622,8 +626,10 @@
         "day": 1,
         "isFlight": true,
         "typeId": 4,
+        "typeName": "Flight",
         "title": "Flight Johannesburg to Windhoek",
         "subTitle": null,
+        "pageBreak": false,
         "content": "",
         "TSBlock": {
           "id": 1038
@@ -712,8 +718,11 @@
             "nights": 0,
             "unitAmount": 1,
             "unitId": 8,
+            "unitName": "flight",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 0,
             "title": "Vluchten <Airtrade>",
             "TSProduct": {
               "id": 6,
@@ -724,6 +733,7 @@
             },
             "TSOrderline": {
               "id": 2397,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -939,19 +949,27 @@
               },
               "salesTotal": 0
             },
-            "subAdditionalText": null,
             "additionalText": null,
+            "subAdditionalText": null,
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": null,
             "sellingMarkupType": "margin",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "dr12xd35wvi1iwj8mhjiik",
+            "vtbObjectId": "u7fije6gk3oor43uar38n",
             "linkedParty": "party 1",
             "day": 1,
             "date": "2020-04-03",
@@ -965,13 +983,13 @@
           "latitude": null,
           "longitude": null
         },
-        "vtbObjectId": "9qjdif351eiui1yteis7",
+        "vtbObjectId": "vxmc79z658a80whyem83nc",
         "carRentalElements": [
           
         ],
         "date": "2020-04-03",
         "missingBookableDays": false,
-        "elementsOrder": "dr12xd35wvi1iwj8mhjiik",
+        "elementsOrder": "u7fije6gk3oor43uar38n",
         "elementsMapActive": "",
         "hasElementsOverlap": false,
         "endDate": "2020-04-03"
@@ -981,8 +999,10 @@
         "day": 1,
         "isFlight": false,
         "typeId": 19,
+        "typeName": "Destination_intro",
         "title": null,
         "subTitle": null,
+        "pageBreak": false,
         "content": "<p>In het destination_intro blok zet je een text product met de beschrijving van de bestemming in het product zoals in het voorbeeld (H1, H2, H2, text). De foto's die aan het product toegevoegd zijn zullen worden getoond op P2 Destination pagina. Mocht je zelf nog foto's willen toevoegen kan je deze slepen in de gallery hiernaast (van het blok) of via 'edit' &gt; gallery in het product hieronder.&nbsp;<\/p><p>Teknhe: De foto's dus uit het element en segment laden.&nbsp;<\/p>",
         "TSBlock": {
           "id": 1042
@@ -992,32 +1012,28 @@
         ],
         "media": [
           {
-            "id": 3,
+            "tags": [
+              "voorbeeldfoto"
+            ],
             "sourceType": "mediaspirit",
-            "sourceId": "25ce2cf77f9f0a5cd5782bb3ce34ced6",
-            "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226114-namibia-wallpapers.jpg",
-            "description": ""
+            "sourceId": "00aedb6e3178e8463de9b56ff3c23b61",
+            "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226121-namibia-wallpapers.jpg"
           },
           {
-            "id": 3,
+            "tags": [
+              "voorbeeldfoto"
+            ],
             "sourceType": "mediaspirit",
             "sourceId": "25ce2cf77f9f0a5cd5782bb3ce34ced6",
-            "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226114-namibia-wallpapers.jpg",
-            "description": ""
+            "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226114-namibia-wallpapers.jpg"
           },
           {
-            "id": 3,
+            "tags": [
+              "voorbeeldfoto"
+            ],
             "sourceType": "mediaspirit",
-            "sourceId": "25ce2cf77f9f0a5cd5782bb3ce34ced6",
-            "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226114-namibia-wallpapers.jpg",
-            "description": ""
-          },
-          {
-            "id": 3,
-            "sourceType": "mediaspirit",
-            "sourceId": "25ce2cf77f9f0a5cd5782bb3ce34ced6",
-            "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226114-namibia-wallpapers.jpg",
-            "description": ""
+            "sourceId": "9ecaec63e500d83c865fdc047a65dc44",
+            "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226112-namibia-wallpapers.jpg"
           }
         ],
         "elements": [
@@ -1027,8 +1043,11 @@
             "nights": 0,
             "unitAmount": 1,
             "unitId": 17,
+            "unitName": "text",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 0,
             "title": "Text product - Namibie",
             "TSProduct": {
               "id": 444,
@@ -1039,6 +1058,7 @@
             },
             "TSOrderline": {
               "id": 2395,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -1242,36 +1262,53 @@
               "pitch": 0,
               "searchPlace": "Namibi\u00eb",
               "staticImageZoom": false,
-              "zoom": 1
+              "zoom": 1,
+              "enabled": true
             },
             "media": [
               {
-                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/original\/lg\/wp2226112-namibia-wallpapers.jpg",
-                "id": 793,
-                "description": "",
-                "sourceId": "9ecaec63e500d83c865fdc047a65dc44",
-                "sourceType": "mediaspirit"
+                "tags": [
+                  
+                ],
+                "sourceType": "mediaspirit",
+                "sourceId": "dba3c4892121c38b5122cc8f9b609f5f",
+                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/p1.jpg"
               },
               {
-                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/original\/lg\/wp2226114-namibia-wallpapers.jpg",
-                "id": 794,
-                "description": "",
-                "sourceId": "25ce2cf77f9f0a5cd5782bb3ce34ced6",
-                "sourceType": "mediaspirit"
-              },
-              {
-                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/original\/lg\/wp2226121-namibia-wallpapers.jpg",
-                "id": 795,
-                "description": "",
+                "id": 2,
+                "sourceType": "mediaspirit",
                 "sourceId": "00aedb6e3178e8463de9b56ff3c23b61",
-                "sourceType": "mediaspirit"
+                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226121-namibia-wallpapers.jpg",
+                "description": "",
+                "tags": [
+                  
+                ]
               },
               {
-                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/original\/lg\/wp2226178-namibia-wallpapers.jpg",
-                "id": 792,
-                "description": "",
+                "tags": [
+                  
+                ],
+                "sourceType": "mediaspirit",
+                "sourceId": "132cfd05e5cf47834e3a653ecd1e21e1",
+                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/tree-in-desert2x.png"
+              },
+              {
+                "id": 4,
+                "sourceType": "mediaspirit",
                 "sourceId": "25ce2cf77f9f0a5cd5782bb3ce34b58d",
-                "sourceType": "mediaspirit"
+                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226178-namibia-wallpapers.jpg",
+                "description": "",
+                "tags": [
+                  
+                ]
+              },
+              {
+                "tags": [
+                  
+                ],
+                "sourceType": "mediaspirit",
+                "sourceId": "245799ce900d6b843b555c3ad2a16d4d",
+                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/43497-waterbergregion-1.jpg"
               }
             ],
             "olPrices": {
@@ -1294,40 +1331,49 @@
               },
               "salesTotal": 0
             },
-            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" data-wsc-instance=\"true\"><h1>H1 - Namibia<\/h1><h2>H2 - A timeless adventure<\/h2><h3>H3 -&nbsp;\u201cA land of contrast &amp; dramatic beauty - exuding a timeless appeal. From awe-inspiring landscapes combined with untamed wildlife, it\u2019s a boutique bucket list destination.\u201d<br \/><br \/>In south western Africa lies a land of compelling fascination. A land for those who worship at the shrine of Africa at its most resplendent, but also at its most unconventional. This is Namibia.<\/h3>Normal text - There rest of the text here. There rest of the text here.&nbsp;There rest of the text here.<\/body><\/html>",
+            "additionalText": "<h1>H1 - Namibia<\/h1><h2>H2 - A timeless adventure<\/h2><h3>H3 -&nbsp;\u201cA land of contrast &amp; dramatic beauty - exuding a timeless appeal. From awe-inspiring landscapes combined with untamed wildlife, it\u2019s a boutique bucket list destination.\u201d<br \/><br \/>In south western Africa lies a land of compelling fascination. A land for those who worship at the shrine of Africa at its most resplendent, but also at its most unconventional. This is Namibia.<\/h3>Normal text - There rest of the text here. There rest of the text here.&nbsp;There rest of the text here.",
             "subAdditionalText": null,
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": null,
             "sellingMarkupType": "absolute",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "iec6lary0svgvstbtuet",
+            "vtbObjectId": "f2vdsz90a7hxv9mav1r83m",
             "linkedParty": "party 1",
             "day": 1,
             "date": "2020-04-03",
             "endDate": "2020-04-03",
-            "roomTypeMatchesParticipants": true
+            "roomTypeMatchesParticipants": true,
+            "segmentNights": 0
           }
         ],
         "inViewport": false,
         "maps": {
-          "zoom": null,
-          "latitude": null,
-          "longitude": null
+          "zoom": 16,
+          "latitude": -22.95764,
+          "longitude": 18.49041
         },
-        "vtbObjectId": "sfd5t3syehdn4eewdjp4g",
+        "vtbObjectId": "zi3lk0gaxysdrng9lsxob",
         "carRentalElements": [
           
         ],
         "date": "2020-04-03",
         "missingBookableDays": false,
-        "elementsOrder": "iec6lary0svgvstbtuet",
-        "elementsMapActive": "",
+        "elementsOrder": "f2vdsz90a7hxv9mav1r83m",
+        "elementsMapActive": "f2vdsz90a7hxv9mav1r83m",
         "hasElementsOverlap": false,
         "endDate": "2020-04-03"
       },
@@ -1336,8 +1382,10 @@
         "day": 1,
         "isFlight": false,
         "typeId": 1,
+        "typeName": "Default",
         "title": "Otjiwarongo",
         "subTitle": "",
+        "pageBreak": false,
         "content": "",
         "TSBlock": {
           "id": 1039
@@ -1355,8 +1403,11 @@
             "nights": 0,
             "unitAmount": 1,
             "unitId": 17,
+            "unitName": "text",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 0,
             "title": "Regio Text product - Regionaam hier",
             "TSProduct": {
               "id": 446,
@@ -1367,6 +1418,7 @@
             },
             "TSOrderline": {
               "id": 2417,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -1561,18 +1613,20 @@
             },
             "media": [
               {
-                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/original\/lg\/wp2226121-namibia-wallpapers.jpg",
-                "id": 797,
-                "description": "",
+                "id": 2,
+                "sourceType": "mediaspirit",
                 "sourceId": "00aedb6e3178e8463de9b56ff3c23b61",
-                "sourceType": "mediaspirit"
+                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226121-namibia-wallpapers.jpg",
+                "description": "",
+                "tags": null
               },
               {
-                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/original\/lg\/wp2226178-namibia-wallpapers.jpg",
-                "id": 796,
-                "description": "",
+                "id": 4,
+                "sourceType": "mediaspirit",
                 "sourceId": "25ce2cf77f9f0a5cd5782bb3ce34b58d",
-                "sourceType": "mediaspirit"
+                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226178-namibia-wallpapers.jpg",
+                "description": "",
+                "tags": null
               }
             ],
             "olPrices": {
@@ -1595,24 +1649,36 @@
               },
               "salesTotal": 0
             },
-            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" data-wsc-instance=\"true\"><p><strong>About the region<\/strong><br \/>Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.<\/p><\/body><\/html>",
-            "subAdditionalText": null,
+            "additionalText": "<p><strong>About the region<\/strong><br \/>Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.<\/p>",
+            "subAdditionalText": "<p>2 nights | 27 December - 29 December<\/p><p>&nbsp;<\/p><p>Not only is Okonjima a luxury lodge, but it is also home to The AfriCat Foundation, a non-profit organisation, committed to long-term conservation of Namibia\u2019s large carnivores, especially cheetahs and leopards.<\/p><p>&nbsp;<\/p><p>Rooms<\/p><p>Each Chalet has large glass panels and canvas windows that can be completely opened for unrestricted views of the savannah.<\/p><p>&nbsp;<\/p><p>Facilities<\/p><p>24-hour Security, Bar, Eco Friendly, Internet Access, Malaria Free, Mobile Connectivity, Pool, Restaurant, Secure Parking<\/p><p>&nbsp;<\/p><p>Activity and services<\/p><p>Leopards are frequently seen, giving visitors an opportunity to observe these magnificent predators that are \u2018radio-tracked\u2019 from our from our game-viewing vehicles. The leopards roam freely and catch their own prey within the 20 000ha \/ 200km2 rehabilitation nature<\/p>",
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": null,
             "sellingMarkupType": "absolute",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "mg5t2hcmbizh2w334idjm",
+            "vtbObjectId": "iiay8777km8nm1fltgdoi9",
             "linkedParty": "party 1",
             "day": 1,
             "date": "2020-04-03",
             "endDate": "2020-04-03",
-            "roomTypeMatchesParticipants": true
+            "roomTypeMatchesParticipants": true,
+            "segmentNights": 2,
+            "maps": [
+              
+            ]
           },
           {
             "emptyOlStartDT": false,
@@ -1620,8 +1686,11 @@
             "nights": 2,
             "unitAmount": 2,
             "unitId": 2,
+            "unitName": "nachten",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 0,
             "title": "Lodge Otjiwarongo",
             "TSProduct": {
               "id": 185,
@@ -1632,6 +1701,7 @@
             },
             "TSOrderline": {
               "id": 2398,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -1830,12 +1900,13 @@
               ],
               "fiendOfView": 0,
               "heading": 0,
-              "latitude": 52.3515022826292,
-              "longitude": 4.863779600429011,
+              "latitude": -20.454542,
+              "longitude": 16.6645007,
               "pitch": 0,
               "searchPlace": null,
               "staticImageZoom": null,
-              "zoom": 14
+              "zoom": 13,
+              "enabled": true
             },
             "media": [
               
@@ -1860,25 +1931,34 @@
               },
               "salesTotal": 0
             },
-            "subAdditionalText": null,
             "additionalText": null,
+            "subAdditionalText": null,
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": null,
             "sellingMarkupType": "absolute",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "tofe37gnb2d0wghwhiks7",
+            "vtbObjectId": "ov7922hdy9lc5b8hdfah5",
             "linkedParty": "party 1",
             "hasPreviousElementParticipantOverlap": true,
             "day": 1,
             "date": "2020-04-03",
             "endDate": "2020-04-05",
-            "roomTypeMatchesParticipants": true
+            "roomTypeMatchesParticipants": true,
+            "segmentNights": 2
           },
           {
             "emptyOlStartDT": false,
@@ -1886,8 +1966,11 @@
             "nights": 0,
             "unitAmount": 1,
             "unitId": 5,
+            "unitName": "excursiedagen",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 0,
             "title": "Excursies",
             "TSProduct": {
               "id": 409,
@@ -1898,6 +1981,7 @@
             },
             "TSOrderline": {
               "id": 2418,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -2113,8 +2197,12 @@
               },
               "salesTotal": 0
             },
-            "subAdditionalText": null,
             "additionalText": null,
+            "subAdditionalText": null,
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               {
                 "defaultPrice": "0.0000",
@@ -2123,16 +2211,22 @@
                 "maxPerson": 99,
                 "minUnit": null,
                 "maxUnit": null,
-                "note": "Dit is een hele mooie excursie"
+                "note": "Dit is een hele mooie excursie",
+                "supplierinfo": "",
+                "internal_info": null
               }
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": null,
             "sellingMarkupType": "absolute",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
-            "vtbObjectId": "r1a2xlqff50f8ym4mvhd4",
+            "vtbObjectId": "ialldf1n90dcifnbmhc8de",
             "linkedParty": "party 1",
             "day": 2,
             "date": "2020-04-04",
@@ -2142,18 +2236,18 @@
         ],
         "inViewport": false,
         "maps": {
-          "zoom": null,
-          "latitude": null,
-          "longitude": null
+          "zoom": 16,
+          "latitude": -20.454542,
+          "longitude": 16.6645007
         },
-        "vtbObjectId": "i2qrs7jxltua73h80ygo",
+        "vtbObjectId": "mdho7nssbz93mrcgxsel",
         "carRentalElements": [
           
         ],
         "date": "2020-04-03",
         "missingBookableDays": false,
-        "elementsOrder": "mg5t2hcmbizh2w334idjm|tofe37gnb2d0wghwhiks7|r1a2xlqff50f8ym4mvhd4",
-        "elementsMapActive": "",
+        "elementsOrder": "iiay8777km8nm1fltgdoi9|ov7922hdy9lc5b8hdfah5|ialldf1n90dcifnbmhc8de",
+        "elementsMapActive": "ov7922hdy9lc5b8hdfah5",
         "hasElementsOverlap": false,
         "endDate": "2020-04-05"
       },
@@ -2162,8 +2256,10 @@
         "day": 3,
         "isFlight": false,
         "typeId": 18,
+        "typeName": "Lijmsteen",
         "title": "Otjiwarongo to Etosha",
         "subTitle": "Selfdrive by 4wd 300km approx 6 hours",
+        "pageBreak": false,
         "content": "",
         "TSBlock": {
           "id": 1043
@@ -2181,8 +2277,11 @@
             "nights": 7,
             "unitAmount": 8,
             "unitId": 6,
+            "unitName": "flexautodagen",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 0,
             "title": "Autohuur Sunny Cars",
             "TSProduct": {
               "id": 23,
@@ -2193,6 +2292,7 @@
             },
             "TSOrderline": {
               "id": 2419,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -2408,19 +2508,27 @@
               },
               "salesTotal": 0
             },
-            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" data-wsc-instance=\"true\"><strong>Inbegrepen:<\/strong><ul><li>Ongelimiteerd aantal kilometers<\/li><li>CDW verzekering (schade aan de huurauto) met terugbetaling van het eigen risico, ook bij (poging tot) diefstal van radio en navigatiesysteem<\/li><li>TP verzekering (diefstal) met terugbetaling van het eigen risico\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Terugbetaling van schade aan glas, banden, bodem (incl. oliecarter en koppeling) en dak van de huurauto. Het is dus &nbsp;niet nodig hiervoor lokaal een extra verzekering af te sluiten\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>WA\/BA-verzekering volgens de wettelijk geldende standaard\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Aanvullende WA\/BA-verzekering van 7,5 miljoen Euro<\/li><li>Ongevallenverzekering (PAI) met een dekking van 20.000 EUR per inzittende van de huurauto\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Vergoeding van de sleepkosten en van de kosten voor het verlies of beschadiging van de autosleutel\/papieren\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Lokale belastingen\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Luchthavenbelastingen\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Terugbetaling dossierkosten van schadeafhandeling\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Minimaal 1 extra bestuurder inbegrepen\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Tankregeling FF: Inleveren met benzinestand zoals opgehaald, meestal is dit \u00b4vol-vol\u00b4.<\/li><\/ul><\/body><\/html>",
+            "additionalText": "<strong>Inbegrepen:<\/strong><ul><li>Ongelimiteerd aantal kilometers<\/li><li>CDW verzekering (schade aan de huurauto) met terugbetaling van het eigen risico, ook bij (poging tot) diefstal van radio en navigatiesysteem<\/li><li>TP verzekering (diefstal) met terugbetaling van het eigen risico\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Terugbetaling van schade aan glas, banden, bodem (incl. oliecarter en koppeling) en dak van de huurauto. Het is dus &nbsp;niet nodig hiervoor lokaal een extra verzekering af te sluiten\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>WA\/BA-verzekering volgens de wettelijk geldende standaard\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Aanvullende WA\/BA-verzekering van 7,5 miljoen Euro<\/li><li>Ongevallenverzekering (PAI) met een dekking van 20.000 EUR per inzittende van de huurauto\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Vergoeding van de sleepkosten en van de kosten voor het verlies of beschadiging van de autosleutel\/papieren\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Lokale belastingen\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Luchthavenbelastingen\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Terugbetaling dossierkosten van schadeafhandeling\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Minimaal 1 extra bestuurder inbegrepen\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Tankregeling FF: Inleveren met benzinestand zoals opgehaald, meestal is dit \u00b4vol-vol\u00b4.<\/li><\/ul>",
             "subAdditionalText": null,
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": null,
             "sellingMarkupType": "absolute",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "7qfdxvh7n2rdr8gfhfqma",
+            "vtbObjectId": "v0la3khk0tr9uy0pgeyrh",
             "linkedParty": "party 1",
             "day": 3,
             "date": "2020-04-05",
@@ -2437,7 +2545,7 @@
           "latitude": null,
           "longitude": null
         },
-        "vtbObjectId": "pxyop3n6v8adgn38o5ryc",
+        "vtbObjectId": "g7si2sgizg2x1t7d42bso",
         "carRentalElements": [
           {
             "emptyOlStartDT": false,
@@ -2445,8 +2553,11 @@
             "nights": 7,
             "unitAmount": 8,
             "unitId": 6,
+            "unitName": "flexautodagen",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 0,
             "title": "Autohuur Sunny Cars",
             "TSProduct": {
               "id": 23,
@@ -2457,6 +2568,7 @@
             },
             "TSOrderline": {
               "id": 2419,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -2672,23 +2784,31 @@
               },
               "salesTotal": 0
             },
-            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" data-wsc-instance=\"true\"><strong>Inbegrepen:<\/strong><ul><li>Ongelimiteerd aantal kilometers<\/li><li>CDW verzekering (schade aan de huurauto) met terugbetaling van het eigen risico, ook bij (poging tot) diefstal van radio en navigatiesysteem<\/li><li>TP verzekering (diefstal) met terugbetaling van het eigen risico\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Terugbetaling van schade aan glas, banden, bodem (incl. oliecarter en koppeling) en dak van de huurauto. Het is dus &nbsp;niet nodig hiervoor lokaal een extra verzekering af te sluiten\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>WA\/BA-verzekering volgens de wettelijk geldende standaard\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Aanvullende WA\/BA-verzekering van 7,5 miljoen Euro<\/li><li>Ongevallenverzekering (PAI) met een dekking van 20.000 EUR per inzittende van de huurauto\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Vergoeding van de sleepkosten en van de kosten voor het verlies of beschadiging van de autosleutel\/papieren\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Lokale belastingen\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Luchthavenbelastingen\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Terugbetaling dossierkosten van schadeafhandeling\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Minimaal 1 extra bestuurder inbegrepen\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Tankregeling FF: Inleveren met benzinestand zoals opgehaald, meestal is dit \u00b4vol-vol\u00b4.<\/li><\/ul><\/body><\/html>",
+            "additionalText": "<strong>Inbegrepen:<\/strong><ul><li>Ongelimiteerd aantal kilometers<\/li><li>CDW verzekering (schade aan de huurauto) met terugbetaling van het eigen risico, ook bij (poging tot) diefstal van radio en navigatiesysteem<\/li><li>TP verzekering (diefstal) met terugbetaling van het eigen risico\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Terugbetaling van schade aan glas, banden, bodem (incl. oliecarter en koppeling) en dak van de huurauto. Het is dus &nbsp;niet nodig hiervoor lokaal een extra verzekering af te sluiten\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>WA\/BA-verzekering volgens de wettelijk geldende standaard\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Aanvullende WA\/BA-verzekering van 7,5 miljoen Euro<\/li><li>Ongevallenverzekering (PAI) met een dekking van 20.000 EUR per inzittende van de huurauto\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Vergoeding van de sleepkosten en van de kosten voor het verlies of beschadiging van de autosleutel\/papieren\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Lokale belastingen\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Luchthavenbelastingen\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Terugbetaling dossierkosten van schadeafhandeling\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Minimaal 1 extra bestuurder inbegrepen\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Tankregeling FF: Inleveren met benzinestand zoals opgehaald, meestal is dit \u00b4vol-vol\u00b4.<\/li><\/ul>",
             "subAdditionalText": null,
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": null,
             "sellingMarkupType": "absolute",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "7qfdxvh7n2rdr8gfhfqma",
+            "vtbObjectId": "v0la3khk0tr9uy0pgeyrh",
             "linkedParty": "party 1",
             "day": 3,
-            "date": "2020-04-04T22:00:00.000Z",
-            "endDate": "2020-04-11T22:00:00.000Z",
+            "date": "2020-04-05T00:00:00.000Z",
+            "endDate": "2020-04-12T00:00:00.000Z",
             "startSegmentIndex": 4,
             "roomTypeMatchesParticipants": true,
             "flexNights": 8,
@@ -2697,7 +2817,7 @@
         ],
         "date": "2020-04-05",
         "missingBookableDays": false,
-        "elementsOrder": "7qfdxvh7n2rdr8gfhfqma",
+        "elementsOrder": "v0la3khk0tr9uy0pgeyrh",
         "elementsMapActive": "",
         "hasElementsOverlap": false,
         "endDate": "2020-04-05",
@@ -2708,8 +2828,10 @@
         "day": 3,
         "isFlight": false,
         "typeId": 1,
+        "typeName": "Default",
         "title": "Etosha National Park",
         "subTitle": null,
+        "pageBreak": false,
         "content": null,
         "TSBlock": {
           "id": 1040
@@ -2727,8 +2849,11 @@
             "nights": 0,
             "unitAmount": 1,
             "unitId": 17,
+            "unitName": "text",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 0,
             "title": "Regio Text product - Regionaam hier",
             "TSProduct": {
               "id": 446,
@@ -2739,6 +2864,7 @@
             },
             "TSOrderline": {
               "id": 2420,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -2933,18 +3059,20 @@
             },
             "media": [
               {
-                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/original\/lg\/wp2226121-namibia-wallpapers.jpg",
-                "id": 797,
-                "description": "",
+                "id": 2,
+                "sourceType": "mediaspirit",
                 "sourceId": "00aedb6e3178e8463de9b56ff3c23b61",
-                "sourceType": "mediaspirit"
+                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226121-namibia-wallpapers.jpg",
+                "description": "",
+                "tags": null
               },
               {
-                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/original\/lg\/wp2226178-namibia-wallpapers.jpg",
-                "id": 796,
-                "description": "",
+                "id": 4,
+                "sourceType": "mediaspirit",
                 "sourceId": "25ce2cf77f9f0a5cd5782bb3ce34b58d",
-                "sourceType": "mediaspirit"
+                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226178-namibia-wallpapers.jpg",
+                "description": "",
+                "tags": null
               }
             ],
             "olPrices": {
@@ -2967,24 +3095,36 @@
               },
               "salesTotal": 0
             },
-            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" data-wsc-instance=\"true\"><p><strong>About the region<\/strong><br \/>Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.<\/p><\/body><\/html>",
-            "subAdditionalText": null,
+            "additionalText": "<p><strong>About the region<\/strong><br \/>Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.<\/p>",
+            "subAdditionalText": "<p>2 nights | 27 December - 29 December<\/p><p>&nbsp;<\/p><p>Not only is Okonjima a luxury lodge, but it is also home to The AfriCat Foundation, a non-profit organisation, committed to long-term conservation of Namibia\u2019s large carnivores, especially cheetahs and leopards.<\/p><p>&nbsp;<\/p><p>Rooms<\/p><p>Each Chalet has large glass panels and canvas windows that can be completely opened for unrestricted views of the savannah.<\/p><p>&nbsp;<\/p><p>Facilities<\/p><p>24-hour Security, Bar, Eco Friendly, Internet Access, Malaria Free, Mobile Connectivity, Pool, Restaurant, Secure Parking<\/p><p>&nbsp;<\/p><p>Activity and services<\/p><p>Leopards are frequently seen, giving visitors an opportunity to observe these magnificent predators that are \u2018radio-tracked\u2019 from our from our game-viewing vehicles. The leopards roam freely and catch their own prey within the 20 000ha \/ 200km2 rehabilitation nature<\/p>",
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": null,
             "sellingMarkupType": "absolute",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "b6k6gtu4c7qi736msuh6w",
+            "vtbObjectId": "d17ig588obt6998is54qz4",
             "linkedParty": "party 1",
             "day": 3,
             "date": "2020-04-05",
             "endDate": "2020-04-03",
-            "roomTypeMatchesParticipants": true
+            "roomTypeMatchesParticipants": true,
+            "segmentNights": 2,
+            "maps": [
+              
+            ]
           },
           {
             "emptyOlStartDT": false,
@@ -2992,8 +3132,11 @@
             "nights": 2,
             "unitAmount": 2,
             "unitId": 2,
+            "unitName": "nachten",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 0,
             "title": "Lodge Etosha",
             "TSProduct": {
               "id": 185,
@@ -3004,6 +3147,7 @@
             },
             "TSOrderline": {
               "id": 2400,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -3202,12 +3346,13 @@
               ],
               "fiendOfView": 0,
               "heading": 0,
-              "latitude": 52.3515022826292,
-              "longitude": 4.863779600429011,
+              "latitude": -18.8555909,
+              "longitude": 16.3293197,
               "pitch": 0,
               "searchPlace": null,
               "staticImageZoom": null,
-              "zoom": 14
+              "zoom": 7,
+              "enabled": true
             },
             "media": [
               
@@ -3232,41 +3377,50 @@
               },
               "salesTotal": 0
             },
-            "subAdditionalText": null,
             "additionalText": null,
+            "subAdditionalText": null,
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": null,
             "sellingMarkupType": "absolute",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "wlsn037fosg08ycywwiw1v",
+            "vtbObjectId": "ewvb6fmjjvu3zip21iwif7",
             "linkedParty": "party 1",
             "hasPreviousElementParticipantOverlap": true,
             "day": 3,
             "date": "2020-04-05",
             "endDate": "2020-04-07",
-            "roomTypeMatchesParticipants": true
+            "roomTypeMatchesParticipants": true,
+            "segmentNights": 2
           }
         ],
         "inViewport": false,
         "maps": {
-          "zoom": null,
-          "latitude": null,
-          "longitude": null
+          "zoom": 16,
+          "latitude": -19.628550,
+          "longitude": 14.848610
         },
-        "vtbObjectId": "yuszl52dcipkmzm6gr0n6o",
+        "vtbObjectId": "kpzdc203lr81bgzm6f8cv",
         "carRentalElements": [
           
         ],
         "date": "2020-04-05",
         "missingBookableDays": false,
-        "elementsOrder": "b6k6gtu4c7qi736msuh6w|wlsn037fosg08ycywwiw1v",
-        "elementsMapActive": "",
+        "elementsOrder": "d17ig588obt6998is54qz4|ewvb6fmjjvu3zip21iwif7",
+        "elementsMapActive": "ewvb6fmjjvu3zip21iwif7",
         "hasElementsOverlap": false,
         "endDate": "2020-04-07"
       },
@@ -3275,8 +3429,10 @@
         "day": 5,
         "isFlight": false,
         "typeId": 1,
+        "typeName": "Default",
         "title": "Twijfelfontein",
         "subTitle": null,
+        "pageBreak": false,
         "content": null,
         "TSBlock": {
           "id": 1041
@@ -3294,8 +3450,11 @@
             "nights": 0,
             "unitAmount": 1,
             "unitId": 17,
+            "unitName": "text",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 0,
             "title": "Regio Text product - Regionaam hier",
             "TSProduct": {
               "id": 446,
@@ -3306,6 +3465,7 @@
             },
             "TSOrderline": {
               "id": 2421,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -3500,18 +3660,20 @@
             },
             "media": [
               {
-                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/original\/lg\/wp2226121-namibia-wallpapers.jpg",
-                "id": 797,
-                "description": "",
+                "id": 2,
+                "sourceType": "mediaspirit",
                 "sourceId": "00aedb6e3178e8463de9b56ff3c23b61",
-                "sourceType": "mediaspirit"
+                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226121-namibia-wallpapers.jpg",
+                "description": "",
+                "tags": null
               },
               {
-                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/original\/lg\/wp2226178-namibia-wallpapers.jpg",
-                "id": 796,
-                "description": "",
+                "id": 4,
+                "sourceType": "mediaspirit",
                 "sourceId": "25ce2cf77f9f0a5cd5782bb3ce34b58d",
-                "sourceType": "mediaspirit"
+                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226178-namibia-wallpapers.jpg",
+                "description": "",
+                "tags": null
               }
             ],
             "olPrices": {
@@ -3534,24 +3696,36 @@
               },
               "salesTotal": 0
             },
-            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" data-wsc-instance=\"true\"><p><strong>About the region<\/strong><br \/>Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.<\/p><\/body><\/html>",
-            "subAdditionalText": null,
+            "additionalText": "<p><strong>About the region<\/strong><br \/>Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.<\/p>",
+            "subAdditionalText": "<p>2 nights | 27 December - 29 December<\/p><p>&nbsp;<\/p><p>Not only is Okonjima a luxury lodge, but it is also home to The AfriCat Foundation, a non-profit organisation, committed to long-term conservation of Namibia\u2019s large carnivores, especially cheetahs and leopards.<\/p><p>&nbsp;<\/p><p>Rooms<\/p><p>Each Chalet has large glass panels and canvas windows that can be completely opened for unrestricted views of the savannah.<\/p><p>&nbsp;<\/p><p>Facilities<\/p><p>24-hour Security, Bar, Eco Friendly, Internet Access, Malaria Free, Mobile Connectivity, Pool, Restaurant, Secure Parking<\/p><p>&nbsp;<\/p><p>Activity and services<\/p><p>Leopards are frequently seen, giving visitors an opportunity to observe these magnificent predators that are \u2018radio-tracked\u2019 from our from our game-viewing vehicles. The leopards roam freely and catch their own prey within the 20 000ha \/ 200km2 rehabilitation nature<\/p>",
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": null,
             "sellingMarkupType": "absolute",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "4sun58fpdz8xikavdesiaf",
+            "vtbObjectId": "67r7sxrttg64mij0vzbwi",
             "linkedParty": "party 1",
             "day": 5,
             "date": "2020-04-07",
             "endDate": "2020-04-03",
-            "roomTypeMatchesParticipants": true
+            "roomTypeMatchesParticipants": true,
+            "segmentNights": 2,
+            "maps": [
+              
+            ]
           },
           {
             "emptyOlStartDT": false,
@@ -3559,8 +3733,11 @@
             "nights": 2,
             "unitAmount": 2,
             "unitId": 2,
+            "unitName": "nachten",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 0,
             "title": "Lodge Twijfelfontein",
             "TSProduct": {
               "id": 185,
@@ -3571,6 +3748,7 @@
             },
             "TSOrderline": {
               "id": 2401,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -3769,12 +3947,13 @@
               ],
               "fiendOfView": 0,
               "heading": 0,
-              "latitude": 52.3515022826292,
-              "longitude": 4.863779600429011,
+              "latitude": -20.596369,
+              "longitude": 14.3734441,
               "pitch": 0,
               "searchPlace": null,
               "staticImageZoom": null,
-              "zoom": 14
+              "zoom": 11,
+              "enabled": true
             },
             "media": [
               
@@ -3799,41 +3978,50 @@
               },
               "salesTotal": 0
             },
-            "subAdditionalText": null,
             "additionalText": null,
+            "subAdditionalText": null,
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": null,
             "sellingMarkupType": "absolute",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "6jnwurcyjicvfc9c553jqd",
+            "vtbObjectId": "acnk6i7q3k7or04rp8c54c",
             "linkedParty": "party 1",
             "hasPreviousElementParticipantOverlap": true,
             "day": 5,
             "date": "2020-04-07",
             "endDate": "2020-04-09",
-            "roomTypeMatchesParticipants": true
+            "roomTypeMatchesParticipants": true,
+            "segmentNights": 2
           }
         ],
         "inViewport": false,
         "maps": {
-          "zoom": null,
-          "latitude": null,
-          "longitude": null
+          "zoom": 16,
+          "latitude": -20.596369,
+          "longitude": 14.3734441
         },
-        "vtbObjectId": "iw8v0ddu47t4jvjzdft1",
+        "vtbObjectId": "nzvvqldzfv67sc1bqmgfl",
         "carRentalElements": [
           
         ],
         "date": "2020-04-07",
         "missingBookableDays": false,
-        "elementsOrder": "4sun58fpdz8xikavdesiaf|6jnwurcyjicvfc9c553jqd",
-        "elementsMapActive": "",
+        "elementsOrder": "67r7sxrttg64mij0vzbwi|acnk6i7q3k7or04rp8c54c",
+        "elementsMapActive": "acnk6i7q3k7or04rp8c54c",
         "hasElementsOverlap": false,
         "endDate": "2020-04-09"
       },
@@ -3842,8 +4030,10 @@
         "day": 7,
         "isFlight": false,
         "typeId": 18,
+        "typeName": "Lijmsteen",
         "title": "Twijfelfontein - Swakupmund",
         "subTitle": null,
+        "pageBreak": false,
         "content": null,
         "TSBlock": {
           "id": 1053
@@ -3861,8 +4051,11 @@
             "nights": 0,
             "unitAmount": 1,
             "unitId": 18,
+            "unitName": "domestic_flight",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 0,
             "title": "Binnenlandse vlucht",
             "TSProduct": {
               "id": 445,
@@ -3873,6 +4066,7 @@
             },
             "TSOrderline": {
               "id": 2422,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -4081,19 +4275,27 @@
               ],
               "salesTotal": 0
             },
-            "subAdditionalText": null,
             "additionalText": null,
+            "subAdditionalText": null,
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": null,
             "sellingMarkupType": "absolute",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "a6mu9e67hw6xo2yey5tyc",
+            "vtbObjectId": "bh449nktyyb31103f5ciqh",
             "day": 7,
             "date": "2020-04-09",
             "endDate": "2020-04-03",
@@ -4106,13 +4308,13 @@
           "latitude": null,
           "longitude": null
         },
-        "vtbObjectId": "jssd77i5roffuuiuoj5a7",
+        "vtbObjectId": "qni1s7kfpmgw8kg0lvxqpc",
         "carRentalElements": [
           
         ],
         "date": "2020-04-09",
         "missingBookableDays": false,
-        "elementsOrder": "a6mu9e67hw6xo2yey5tyc",
+        "elementsOrder": "bh449nktyyb31103f5ciqh",
         "elementsMapActive": "",
         "hasElementsOverlap": false,
         "endDate": "2020-04-09"
@@ -4122,8 +4324,10 @@
         "day": 7,
         "isFlight": false,
         "typeId": 1,
+        "typeName": "Default",
         "title": "Swakopmund",
         "subTitle": null,
+        "pageBreak": false,
         "content": null,
         "TSBlock": {
           "id": 1054
@@ -4132,9 +4336,9 @@
           
         ],
         "maps": {
-          "zoom": null,
-          "latitude": null,
-          "longitude": null
+          "zoom": 16,
+          "latitude": -22.6467427,
+          "longitude": 14.6004911
         },
         "media": [
           
@@ -4146,8 +4350,11 @@
             "nights": 0,
             "unitAmount": 1,
             "unitId": 17,
+            "unitName": "text",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 0,
             "title": "Regio Text product - Regionaam hier",
             "TSProduct": {
               "id": 446,
@@ -4158,6 +4365,7 @@
             },
             "TSOrderline": {
               "id": 2423,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -4352,18 +4560,20 @@
             },
             "media": [
               {
-                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/original\/lg\/wp2226121-namibia-wallpapers.jpg",
-                "id": 797,
-                "description": "",
+                "id": 2,
+                "sourceType": "mediaspirit",
                 "sourceId": "00aedb6e3178e8463de9b56ff3c23b61",
-                "sourceType": "mediaspirit"
+                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226121-namibia-wallpapers.jpg",
+                "description": "",
+                "tags": null
               },
               {
-                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/original\/lg\/wp2226178-namibia-wallpapers.jpg",
-                "id": 796,
-                "description": "",
+                "id": 4,
+                "sourceType": "mediaspirit",
                 "sourceId": "25ce2cf77f9f0a5cd5782bb3ce34b58d",
-                "sourceType": "mediaspirit"
+                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226178-namibia-wallpapers.jpg",
+                "description": "",
+                "tags": null
               }
             ],
             "olPrices": {
@@ -4386,24 +4596,36 @@
               },
               "salesTotal": 0
             },
-            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" data-wsc-instance=\"true\"><p><strong>About the region<\/strong><br \/>Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.<\/p><\/body><\/html>",
-            "subAdditionalText": null,
+            "additionalText": "<p><strong>About the region<\/strong><br \/>Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.<\/p>",
+            "subAdditionalText": "<p>2 nights | 27 December - 29 December<\/p><p>&nbsp;<\/p><p>Not only is Okonjima a luxury lodge, but it is also home to The AfriCat Foundation, a non-profit organisation, committed to long-term conservation of Namibia\u2019s large carnivores, especially cheetahs and leopards.<\/p><p>&nbsp;<\/p><p>Rooms<\/p><p>Each Chalet has large glass panels and canvas windows that can be completely opened for unrestricted views of the savannah.<\/p><p>&nbsp;<\/p><p>Facilities<\/p><p>24-hour Security, Bar, Eco Friendly, Internet Access, Malaria Free, Mobile Connectivity, Pool, Restaurant, Secure Parking<\/p><p>&nbsp;<\/p><p>Activity and services<\/p><p>Leopards are frequently seen, giving visitors an opportunity to observe these magnificent predators that are \u2018radio-tracked\u2019 from our from our game-viewing vehicles. The leopards roam freely and catch their own prey within the 20 000ha \/ 200km2 rehabilitation nature<\/p>",
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": null,
             "sellingMarkupType": "absolute",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "s63eljfc3kn9dk0v6mawfk",
+            "vtbObjectId": "zqgbonoupa9tfwu0qnw7gd",
             "linkedParty": "party 1",
             "day": 7,
             "date": "2020-04-09",
             "endDate": "2020-04-03",
-            "roomTypeMatchesParticipants": true
+            "roomTypeMatchesParticipants": true,
+            "segmentNights": 2,
+            "maps": [
+              
+            ]
           },
           {
             "emptyOlStartDT": false,
@@ -4411,8 +4633,11 @@
             "nights": 2,
             "unitAmount": 2,
             "unitId": 2,
+            "unitName": "nachten",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 0,
             "title": "Sense Of Africa",
             "TSProduct": {
               "id": 185,
@@ -4423,6 +4648,7 @@
             },
             "TSOrderline": {
               "id": 2424,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -4621,12 +4847,13 @@
               ],
               "fiendOfView": 84.46979999999999,
               "heading": 0,
-              "latitude": 52.3515022826292,
-              "longitude": 4.863779600429011,
+              "latitude": -22.6467427,
+              "longitude": 14.6004911,
               "pitch": 0,
               "searchPlace": false,
               "staticImageZoom": false,
-              "zoom": 14
+              "zoom": 11,
+              "enabled": true
             },
             "media": [
               
@@ -4651,36 +4878,45 @@
               },
               "salesTotal": 0
             },
-            "subAdditionalText": null,
             "additionalText": null,
+            "subAdditionalText": null,
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": null,
             "sellingMarkupType": "absolute",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "2mf9qp19y9cv5c67a5nlzh",
+            "vtbObjectId": "s593vqd8d6rjyray1k83bj",
             "linkedParty": "party 1",
             "hasPreviousElementParticipantOverlap": true,
             "day": 7,
             "date": "2020-04-09",
             "endDate": "2020-04-11",
-            "roomTypeMatchesParticipants": true
+            "roomTypeMatchesParticipants": true,
+            "segmentNights": 2
           }
         ],
         "inViewport": false,
-        "vtbObjectId": "btvbqpd3i5usf4922uxu68",
+        "vtbObjectId": "gqdmr4wz6raq8ep1e098lo",
         "carRentalElements": [
           
         ],
         "date": "2020-04-09",
         "missingBookableDays": false,
-        "elementsOrder": "s63eljfc3kn9dk0v6mawfk|2mf9qp19y9cv5c67a5nlzh",
-        "elementsMapActive": "",
+        "elementsOrder": "zqgbonoupa9tfwu0qnw7gd|s593vqd8d6rjyray1k83bj",
+        "elementsMapActive": "s593vqd8d6rjyray1k83bj",
         "hasElementsOverlap": false,
         "endDate": "2020-04-11"
       },
@@ -4689,8 +4925,10 @@
         "day": 9,
         "isFlight": false,
         "typeId": 18,
+        "typeName": "Lijmsteen",
         "title": "Swakopmund - Sesriem",
         "subTitle": "Transfer by car 150km approx 2 hours",
+        "pageBreak": false,
         "content": null,
         "TSBlock": {
           "id": 1055
@@ -4708,8 +4946,11 @@
             "nights": 0,
             "unitAmount": 1,
             "unitId": 10,
+            "unitName": "transfer",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 0,
             "title": "Transfer",
             "TSProduct": {
               "id": 20,
@@ -4720,6 +4961,7 @@
             },
             "TSOrderline": {
               "id": 2425,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -4935,19 +5177,27 @@
               },
               "salesTotal": 0
             },
-            "subAdditionalText": null,
             "additionalText": null,
+            "subAdditionalText": null,
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": null,
             "sellingMarkupType": "absolute",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "im87j38ip4m4ibevespajx",
+            "vtbObjectId": "l1yyhwjum3hl8gw5495yc",
             "linkedParty": "party 1",
             "day": 9,
             "date": "2020-04-11",
@@ -4961,13 +5211,13 @@
           "latitude": null,
           "longitude": null
         },
-        "vtbObjectId": "3ptbkfcb24foqcbx5ev5wm",
+        "vtbObjectId": "m685k51rv8ipsr2pp71qy",
         "carRentalElements": [
           
         ],
         "date": "2020-04-11",
         "missingBookableDays": false,
-        "elementsOrder": "im87j38ip4m4ibevespajx",
+        "elementsOrder": "l1yyhwjum3hl8gw5495yc",
         "elementsMapActive": "",
         "hasElementsOverlap": false,
         "endDate": "2020-04-11"
@@ -4977,8 +5227,10 @@
         "day": 9,
         "isFlight": false,
         "typeId": 1,
+        "typeName": "Default",
         "title": "Sesriem",
         "subTitle": null,
+        "pageBreak": false,
         "content": null,
         "TSBlock": {
           "id": 1056
@@ -4987,9 +5239,9 @@
           
         ],
         "maps": {
-          "zoom": null,
-          "latitude": null,
-          "longitude": null
+          "zoom": 16,
+          "latitude": -24.486698,
+          "longitude": 15.8011445
         },
         "media": [
           
@@ -5001,8 +5253,11 @@
             "nights": 0,
             "unitAmount": 1,
             "unitId": 17,
+            "unitName": "text",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 0,
             "title": "Regio Text product - Regionaam hier",
             "TSProduct": {
               "id": 446,
@@ -5013,6 +5268,7 @@
             },
             "TSOrderline": {
               "id": 2426,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -5207,18 +5463,20 @@
             },
             "media": [
               {
-                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/original\/lg\/wp2226121-namibia-wallpapers.jpg",
-                "id": 797,
-                "description": "",
+                "id": 2,
+                "sourceType": "mediaspirit",
                 "sourceId": "00aedb6e3178e8463de9b56ff3c23b61",
-                "sourceType": "mediaspirit"
+                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226121-namibia-wallpapers.jpg",
+                "description": "",
+                "tags": null
               },
               {
-                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/original\/lg\/wp2226178-namibia-wallpapers.jpg",
-                "id": 796,
-                "description": "",
+                "id": 4,
+                "sourceType": "mediaspirit",
                 "sourceId": "25ce2cf77f9f0a5cd5782bb3ce34b58d",
-                "sourceType": "mediaspirit"
+                "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226178-namibia-wallpapers.jpg",
+                "description": "",
+                "tags": null
               }
             ],
             "olPrices": {
@@ -5241,24 +5499,36 @@
               },
               "salesTotal": 0
             },
-            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" data-wsc-instance=\"true\"><p><strong>About the region<\/strong><br \/>Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.<\/p><\/body><\/html>",
-            "subAdditionalText": null,
+            "additionalText": "<p><strong>About the region<\/strong><br \/>Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.&nbsp;Text about the region here.<\/p>",
+            "subAdditionalText": "<p>2 nights | 27 December - 29 December<\/p><p>&nbsp;<\/p><p>Not only is Okonjima a luxury lodge, but it is also home to The AfriCat Foundation, a non-profit organisation, committed to long-term conservation of Namibia\u2019s large carnivores, especially cheetahs and leopards.<\/p><p>&nbsp;<\/p><p>Rooms<\/p><p>Each Chalet has large glass panels and canvas windows that can be completely opened for unrestricted views of the savannah.<\/p><p>&nbsp;<\/p><p>Facilities<\/p><p>24-hour Security, Bar, Eco Friendly, Internet Access, Malaria Free, Mobile Connectivity, Pool, Restaurant, Secure Parking<\/p><p>&nbsp;<\/p><p>Activity and services<\/p><p>Leopards are frequently seen, giving visitors an opportunity to observe these magnificent predators that are \u2018radio-tracked\u2019 from our from our game-viewing vehicles. The leopards roam freely and catch their own prey within the 20 000ha \/ 200km2 rehabilitation nature<\/p>",
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": null,
             "sellingMarkupType": "absolute",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "0pl7z84s3ynqfca94s9g8ne",
+            "vtbObjectId": "p4mk9kv9n63d3l0wm59v8",
             "linkedParty": "party 1",
             "day": 9,
             "date": "2020-04-11",
             "endDate": "2020-04-03",
-            "roomTypeMatchesParticipants": true
+            "roomTypeMatchesParticipants": true,
+            "segmentNights": 2,
+            "maps": [
+              
+            ]
           },
           {
             "emptyOlStartDT": false,
@@ -5266,8 +5536,11 @@
             "nights": 2,
             "unitAmount": 2,
             "unitId": 2,
+            "unitName": "nachten",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 0,
             "title": "Sense Of Africa",
             "TSProduct": {
               "id": 185,
@@ -5278,6 +5551,7 @@
             },
             "TSOrderline": {
               "id": 2427,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -5476,12 +5750,13 @@
               ],
               "fiendOfView": 84.46979999999999,
               "heading": 0,
-              "latitude": 52.3515022826292,
-              "longitude": 4.863779600429011,
+              "latitude": -24.486698,
+              "longitude": 15.8011445,
               "pitch": 0,
               "searchPlace": false,
               "staticImageZoom": false,
-              "zoom": 14
+              "zoom": 14,
+              "enabled": true
             },
             "media": [
               
@@ -5506,29 +5781,38 @@
               },
               "salesTotal": 0
             },
-            "subAdditionalText": null,
             "additionalText": null,
+            "subAdditionalText": null,
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": null,
             "sellingMarkupType": "absolute",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "9ei0tuwxn34fasagxcgcg",
+            "vtbObjectId": "drlw4lzod1oty6zaf4fwi",
             "linkedParty": "party 1",
             "hasPreviousElementParticipantOverlap": true,
             "day": 9,
             "date": "2020-04-11",
             "endDate": "2020-04-13",
-            "roomTypeMatchesParticipants": true
+            "roomTypeMatchesParticipants": true,
+            "segmentNights": 2
           }
         ],
         "inViewport": false,
-        "vtbObjectId": "iqq53bmwbxda3s97v4jsa",
+        "vtbObjectId": "ne0b8zmiy1gnnaq98ojx7r",
         "carRentalElements": [
           {
             "emptyOlStartDT": false,
@@ -5536,8 +5820,11 @@
             "nights": 7,
             "unitAmount": 8,
             "unitId": 6,
+            "unitName": "flexautodagen",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 0,
             "title": "Autohuur Sunny Cars",
             "TSProduct": {
               "id": 23,
@@ -5548,6 +5835,7 @@
             },
             "TSOrderline": {
               "id": 2419,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -5763,23 +6051,31 @@
               },
               "salesTotal": 0
             },
-            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" data-wsc-instance=\"true\"><strong>Inbegrepen:<\/strong><ul><li>Ongelimiteerd aantal kilometers<\/li><li>CDW verzekering (schade aan de huurauto) met terugbetaling van het eigen risico, ook bij (poging tot) diefstal van radio en navigatiesysteem<\/li><li>TP verzekering (diefstal) met terugbetaling van het eigen risico\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Terugbetaling van schade aan glas, banden, bodem (incl. oliecarter en koppeling) en dak van de huurauto. Het is dus &nbsp;niet nodig hiervoor lokaal een extra verzekering af te sluiten\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>WA\/BA-verzekering volgens de wettelijk geldende standaard\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Aanvullende WA\/BA-verzekering van 7,5 miljoen Euro<\/li><li>Ongevallenverzekering (PAI) met een dekking van 20.000 EUR per inzittende van de huurauto\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Vergoeding van de sleepkosten en van de kosten voor het verlies of beschadiging van de autosleutel\/papieren\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Lokale belastingen\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Luchthavenbelastingen\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Terugbetaling dossierkosten van schadeafhandeling\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Minimaal 1 extra bestuurder inbegrepen\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Tankregeling FF: Inleveren met benzinestand zoals opgehaald, meestal is dit \u00b4vol-vol\u00b4.<\/li><\/ul><\/body><\/html>",
+            "additionalText": "<strong>Inbegrepen:<\/strong><ul><li>Ongelimiteerd aantal kilometers<\/li><li>CDW verzekering (schade aan de huurauto) met terugbetaling van het eigen risico, ook bij (poging tot) diefstal van radio en navigatiesysteem<\/li><li>TP verzekering (diefstal) met terugbetaling van het eigen risico\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Terugbetaling van schade aan glas, banden, bodem (incl. oliecarter en koppeling) en dak van de huurauto. Het is dus &nbsp;niet nodig hiervoor lokaal een extra verzekering af te sluiten\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>WA\/BA-verzekering volgens de wettelijk geldende standaard\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Aanvullende WA\/BA-verzekering van 7,5 miljoen Euro<\/li><li>Ongevallenverzekering (PAI) met een dekking van 20.000 EUR per inzittende van de huurauto\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Vergoeding van de sleepkosten en van de kosten voor het verlies of beschadiging van de autosleutel\/papieren\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Lokale belastingen\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Luchthavenbelastingen\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Terugbetaling dossierkosten van schadeafhandeling\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Minimaal 1 extra bestuurder inbegrepen\u200b\u200b\u200b\u200b\u200b\u200b\u200b<\/li><li>Tankregeling FF: Inleveren met benzinestand zoals opgehaald, meestal is dit \u00b4vol-vol\u00b4.<\/li><\/ul>",
             "subAdditionalText": null,
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": null,
             "sellingMarkupType": "absolute",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "7qfdxvh7n2rdr8gfhfqma",
+            "vtbObjectId": "v0la3khk0tr9uy0pgeyrh",
             "linkedParty": "party 1",
             "day": 3,
-            "date": "2020-04-04T22:00:00.000Z",
-            "endDate": "2020-04-11T22:00:00.000Z",
+            "date": "2020-04-05T00:00:00.000Z",
+            "endDate": "2020-04-12T00:00:00.000Z",
             "startSegmentIndex": 4,
             "roomTypeMatchesParticipants": true,
             "flexNights": 8,
@@ -5788,8 +6084,8 @@
         ],
         "date": "2020-04-11",
         "missingBookableDays": false,
-        "elementsOrder": "0pl7z84s3ynqfca94s9g8ne|9ei0tuwxn34fasagxcgcg",
-        "elementsMapActive": "",
+        "elementsOrder": "p4mk9kv9n63d3l0wm59v8|drlw4lzod1oty6zaf4fwi",
+        "elementsMapActive": "drlw4lzod1oty6zaf4fwi",
         "hasElementsOverlap": false,
         "endDate": "2020-04-13"
       },
@@ -5798,8 +6094,10 @@
         "day": 11,
         "isFlight": false,
         "typeId": 18,
+        "typeName": "Lijmsteen",
         "title": "Sesriem - Windhoek",
         "subTitle": null,
+        "pageBreak": false,
         "content": "",
         "TSBlock": {
           "id": 1057
@@ -5817,8 +6115,11 @@
             "nights": 0,
             "unitAmount": 1,
             "unitId": 10,
+            "unitName": "transfer",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 0,
             "title": "Transfer",
             "TSProduct": {
               "id": 20,
@@ -5829,6 +6130,7 @@
             },
             "TSOrderline": {
               "id": 2428,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -6044,19 +6346,27 @@
               },
               "salesTotal": 0
             },
-            "subAdditionalText": null,
             "additionalText": null,
+            "subAdditionalText": null,
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": null,
             "sellingMarkupType": "absolute",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "bk5x0oy5ia8kt64gx6r0o8",
+            "vtbObjectId": "gxugwj0lnpgvd39cx39sjd",
             "linkedParty": "party 1",
             "day": 11,
             "date": "2020-04-13",
@@ -6070,13 +6380,13 @@
           "latitude": null,
           "longitude": null
         },
-        "vtbObjectId": "0fvw321w7h3c6llidh0lsj",
+        "vtbObjectId": "6eixkasr69e1mfc4cbhtns",
         "carRentalElements": [
           
         ],
         "date": "2020-04-13",
         "missingBookableDays": false,
-        "elementsOrder": "bk5x0oy5ia8kt64gx6r0o8",
+        "elementsOrder": "gxugwj0lnpgvd39cx39sjd",
         "elementsMapActive": "",
         "hasElementsOverlap": false,
         "endDate": "2020-04-13"
@@ -6086,8 +6396,10 @@
         "day": 11,
         "isFlight": true,
         "typeId": 4,
+        "typeName": "Flight",
         "title": "Aankomst Amsterdam Schiphol",
         "subTitle": null,
+        "pageBreak": false,
         "content": null,
         "TSBlock": {
           "id": 1058
@@ -6105,8 +6417,11 @@
             "nights": 0,
             "unitAmount": 1,
             "unitId": 8,
+            "unitName": "flight",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 0,
             "title": "Vluchten <Airtrade>",
             "TSProduct": {
               "id": 6,
@@ -6117,6 +6432,7 @@
             },
             "TSOrderline": {
               "id": 2429,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -6332,19 +6648,27 @@
               },
               "salesTotal": 0
             },
-            "subAdditionalText": null,
             "additionalText": null,
+            "subAdditionalText": null,
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": null,
             "sellingMarkupType": "margin",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "58h6nq6ordgfvuweaz8ew7",
+            "vtbObjectId": "cwvio6qazfbsujjp26zuge",
             "linkedParty": "party 1",
             "day": 11,
             "date": "2020-04-13",
@@ -6358,13 +6682,13 @@
           "latitude": null,
           "longitude": null
         },
-        "vtbObjectId": "rbik19nzwj6nj9muf2st9",
+        "vtbObjectId": "5t703h7ol0lp4dp0g21o0m",
         "carRentalElements": [
           
         ],
         "date": "2020-04-13",
         "missingBookableDays": false,
-        "elementsOrder": "58h6nq6ordgfvuweaz8ew7",
+        "elementsOrder": "cwvio6qazfbsujjp26zuge",
         "elementsMapActive": "",
         "hasElementsOverlap": false,
         "endDate": "2020-04-13"
@@ -6374,8 +6698,10 @@
         "day": 11,
         "isFlight": false,
         "typeId": 9,
+        "typeName": "Additions",
         "title": null,
         "subTitle": null,
+        "pageBreak": false,
         "content": null,
         "TSBlock": {
           "id": 1036
@@ -6393,8 +6719,11 @@
             "nights": 0,
             "unitAmount": 1,
             "unitId": 3,
+            "unitName": "x",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 50,
             "title": "Dossierkosten",
             "TSProduct": {
               "id": 7,
@@ -6405,6 +6734,7 @@
             },
             "TSOrderline": {
               "id": 2392,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -6620,19 +6950,27 @@
               },
               "salesTotal": 50
             },
-            "subAdditionalText": null,
             "additionalText": null,
+            "subAdditionalText": null,
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": "50.000",
             "sellingMarkupType": "fixed",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "q9ma4dqk95pvr9z2i6hu",
+            "vtbObjectId": "7a3np8accz6sd6v33rdewf",
             "linkedParty": "party 1",
             "day": 11,
             "date": "2020-04-13",
@@ -6645,8 +6983,11 @@
             "nights": 0,
             "unitAmount": 1,
             "unitId": 3,
+            "unitName": "x",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 2.5,
             "subTitle": "<1 tm 9 personen>",
             "title": "Calamiteitenfonds",
             "TSProduct": {
@@ -6658,6 +6999,7 @@
             },
             "TSOrderline": {
               "id": 2393,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -6873,8 +7215,12 @@
               },
               "salesTotal": 2.5
             },
-            "subAdditionalText": null,
             "additionalText": null,
+            "subAdditionalText": null,
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               {
                 "defaultPrice": "2.5000",
@@ -6883,7 +7229,9 @@
                 "maxPerson": 9,
                 "minUnit": null,
                 "maxUnit": null,
-                "note": ""
+                "note": "",
+                "supplierinfo": "",
+                "internal_info": null
               },
               {
                 "defaultPrice": "5.0000",
@@ -6892,7 +7240,9 @@
                 "maxPerson": 18,
                 "minUnit": null,
                 "maxUnit": null,
-                "note": ""
+                "note": "",
+                "supplierinfo": "",
+                "internal_info": null
               },
               {
                 "defaultPrice": "7.5000",
@@ -6901,17 +7251,23 @@
                 "maxPerson": 27,
                 "minUnit": null,
                 "maxUnit": null,
-                "note": ""
+                "note": "",
+                "supplierinfo": "",
+                "internal_info": null
               }
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": "0.000",
             "sellingMarkupType": "fixed",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "zj5yshyd0rqec1fjankoze",
+            "vtbObjectId": "atcqgzugz2c6axfn29j3nb",
             "linkedParty": "party 1",
             "day": 11,
             "date": "2020-04-13",
@@ -6925,13 +7281,13 @@
           "latitude": null,
           "longitude": null
         },
-        "vtbObjectId": "6q4ufhswtmkzpw1y53qsb",
+        "vtbObjectId": "rum97vk2thi2bh7fyqhcqg",
         "carRentalElements": [
           
         ],
         "date": "2020-04-13",
         "missingBookableDays": false,
-        "elementsOrder": "q9ma4dqk95pvr9z2i6hu|zj5yshyd0rqec1fjankoze",
+        "elementsOrder": "7a3np8accz6sd6v33rdewf|atcqgzugz2c6axfn29j3nb",
         "elementsMapActive": "",
         "hasElementsOverlap": false,
         "endDate": "2020-04-13"
@@ -6941,8 +7297,10 @@
         "day": 11,
         "isFlight": false,
         "typeId": 2,
+        "typeName": "Prices",
         "title": null,
         "subTitle": null,
+        "pageBreak": false,
         "content": null,
         "TSBlock": {
           "id": 1035
@@ -6960,8 +7318,11 @@
             "nights": 0,
             "unitAmount": 1,
             "unitId": 3,
+            "unitName": "x",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 0,
             "title": "Startdatum van de reis",
             "TSProduct": {
               "id": 30,
@@ -6972,6 +7333,7 @@
             },
             "TSOrderline": {
               "id": 2390,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -7187,19 +7549,27 @@
               },
               "salesTotal": 0
             },
-            "subAdditionalText": null,
             "additionalText": null,
+            "subAdditionalText": null,
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": "0.000",
             "sellingMarkupType": "margin",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "kau5gstp5jpldtplpx6czk",
+            "vtbObjectId": "7mqrcr13joubk5xu8xd3p4",
             "linkedParty": "party 1",
             "day": 11,
             "date": "2020-04-13",
@@ -7212,8 +7582,11 @@
             "nights": 0,
             "unitAmount": 1,
             "unitId": 3,
+            "unitName": "x",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 0,
             "title": "Einddatum van de reis",
             "TSProduct": {
               "id": 31,
@@ -7224,6 +7597,7 @@
             },
             "TSOrderline": {
               "id": 2391,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -7439,19 +7813,27 @@
               },
               "salesTotal": 0
             },
-            "subAdditionalText": null,
             "additionalText": null,
+            "subAdditionalText": null,
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": "0.000",
             "sellingMarkupType": "margin",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "ij9ooax9930pt4jd8frc",
+            "vtbObjectId": "5iocgoi2o4awyjv52r5fri",
             "linkedParty": "party 1",
             "day": 11,
             "date": "2020-04-13",
@@ -7465,13 +7847,13 @@
           "latitude": null,
           "longitude": null
         },
-        "vtbObjectId": "v1th79m3mdo5yf1yctcf",
+        "vtbObjectId": "222orhfel4jzoxq7bnwyok",
         "carRentalElements": [
           
         ],
         "date": "2020-04-13",
         "missingBookableDays": false,
-        "elementsOrder": "kau5gstp5jpldtplpx6czk|ij9ooax9930pt4jd8frc",
+        "elementsOrder": "7mqrcr13joubk5xu8xd3p4|5iocgoi2o4awyjv52r5fri",
         "elementsMapActive": "",
         "hasElementsOverlap": false,
         "endDate": "2020-04-13"
@@ -7481,8 +7863,10 @@
         "day": 11,
         "isFlight": false,
         "typeId": 20,
+        "typeName": "Pratical_information",
         "title": null,
         "subTitle": null,
+        "pageBreak": false,
         "content": null,
         "TSBlock": {
           "id": 1059
@@ -7496,14 +7880,16 @@
             "sourceType": "mediaspirit",
             "sourceId": "c775d0d4f3c2d0e6b174408dc51865cc",
             "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226086-namibia-wallpapers.jpg",
-            "description": null
+            "description": null,
+            "tags": null
           },
           {
             "id": 3,
             "sourceType": "mediaspirit",
             "sourceId": "25ce2cf77f9f0a5cd5782bb3ce34ced6",
             "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226114-namibia-wallpapers.jpg",
-            "description": ""
+            "description": "",
+            "tags": null
           }
         ],
         "elements": [
@@ -7513,8 +7899,11 @@
             "nights": 0,
             "unitAmount": 1,
             "unitId": 17,
+            "unitName": "text",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 0,
             "title": "Practical information text",
             "TSProduct": {
               "id": 447,
@@ -7525,6 +7914,7 @@
             },
             "TSOrderline": {
               "id": 2430,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -7740,19 +8130,27 @@
               },
               "salesTotal": 0
             },
-            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" data-wsc-instance=\"true\"><h2>H2&nbsp;Koptekst hier<\/h2>Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;<h2>H2&nbsp;Koptekst hier<\/h2>Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;<\/body><\/html>",
+            "additionalText": "<h2>H2&nbsp;Koptekst hier<\/h2>Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;<h2>H2&nbsp;Koptekst hier<\/h2>Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;",
             "subAdditionalText": null,
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": null,
             "sellingMarkupType": "absolute",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "vbkp4302iphe55ysk8kdtc",
+            "vtbObjectId": "ji534eairdjtxnswb7iq7f",
             "linkedParty": "party 1",
             "day": 11,
             "date": "2020-04-13",
@@ -7765,8 +8163,11 @@
             "nights": 0,
             "unitAmount": 1,
             "unitId": 17,
+            "unitName": "text",
             "optional": false,
             "not_calculated": true,
+            "templateCalcMethod": null,
+            "olTotal": 0,
             "title": "Practical information text",
             "TSProduct": {
               "id": 447,
@@ -7777,6 +8178,7 @@
             },
             "TSOrderline": {
               "id": 2431,
+              "locked": 0,
               "extraFieldValues": [
                 {
                   "id": 37,
@@ -7992,19 +8394,27 @@
               },
               "salesTotal": 0
             },
-            "additionalText": "<html><head><title><\/title><\/head><body aria-readonly=\"false\" data-wsc-instance=\"true\"><h2>H2&nbsp;Koptekst hier<\/h2>Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;<h2>H2&nbsp;Koptekst hier<\/h2>Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;<\/body><\/html>",
+            "additionalText": "<h2>H2&nbsp;Koptekst hier<\/h2>Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;<h2>H2&nbsp;Koptekst hier<\/h2>Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;Hier de tekst van de informatie.&nbsp;",
             "subAdditionalText": null,
+            "pricematrixSubAdditionalText": null,
+            "internalText": null,
+            "pricematrixInternalText": null,
+            "pricespecialInternalText": null,
             "roomTypes": [
               
             ],
             "supplierComment": null,
+            "pmPriceSpecialsPurchaseInfo": null,
+            "supplierInfo": null,
             "sellingAmount": null,
             "sellingMarkupType": "absolute",
+            "anixeInfo": null,
+            "pageBreak": false,
             "missingBookableDays": [
               
             ],
             "needsOffsetRecalculation": true,
-            "vtbObjectId": "a4hwslxitktjr9wvrbqla",
+            "vtbObjectId": "6xzmax87nft82kahx07op",
             "linkedParty": "party 1",
             "day": 11,
             "date": "2020-04-13",
@@ -8012,19 +8422,19 @@
             "roomTypeMatchesParticipants": true
           }
         ],
-        "inViewport": false,
+        "inViewport": true,
         "maps": {
           "zoom": null,
           "latitude": null,
           "longitude": null
         },
-        "vtbObjectId": "affgcj0bg7e2j6d4wfecbt",
+        "vtbObjectId": "0en9658salvodnjoey1q419",
         "carRentalElements": [
           
         ],
         "date": "2020-04-13",
         "missingBookableDays": false,
-        "elementsOrder": "vbkp4302iphe55ysk8kdtc|a4hwslxitktjr9wvrbqla",
+        "elementsOrder": "ji534eairdjtxnswb7iq7f|6xzmax87nft82kahx07op",
         "elementsMapActive": "",
         "hasElementsOverlap": false,
         "endDate": "2020-04-13"
@@ -8036,64 +8446,88 @@
         "id": 1,
         "sourceType": "mediaspirit",
         "sourceId": "9ecaec63e500d83c865fdc047a65dc44",
-        "url": "https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/original/43497-waterbergregion-1.jpg",
-        "description": ""
-      },
-      {
-        "id": 2,
-        "sourceType": "mediaspirit",
-        "sourceId": "00aedb6e3178e8463de9b56ff3c23b61",
-        "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226121-namibia-wallpapers.jpg",
-        "description": ""
-      },
-      {
-        "id": 2,
-        "sourceType": "mediaspirit",
-        "sourceId": "00aedb6e3178e8463de9b56ff3c23b61",
-        "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226121-namibia-wallpapers.jpg",
-        "description": ""
+        "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226112-namibia-wallpapers.jpg",
+        "description": "",
+        "tags": null
       },
       {
         "id": 1,
         "sourceType": "mediaspirit",
         "sourceId": "9ecaec63e500d83c865fdc047a65dc44",
         "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226112-namibia-wallpapers.jpg",
-        "description": ""
+        "description": "",
+        "tags": null
       },
       {
         "id": 2,
         "sourceType": "mediaspirit",
         "sourceId": "00aedb6e3178e8463de9b56ff3c23b61",
         "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226121-namibia-wallpapers.jpg",
-        "description": ""
+        "description": "",
+        "tags": null
       },
       {
         "id": 1,
         "sourceType": "mediaspirit",
         "sourceId": "9ecaec63e500d83c865fdc047a65dc44",
         "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226112-namibia-wallpapers.jpg",
-        "description": ""
+        "description": "",
+        "tags": null
       },
       {
         "id": 2,
         "sourceType": "mediaspirit",
         "sourceId": "00aedb6e3178e8463de9b56ff3c23b61",
         "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226121-namibia-wallpapers.jpg",
-        "description": ""
+        "description": "",
+        "tags": null
+      },
+      {
+        "id": 1,
+        "sourceType": "mediaspirit",
+        "sourceId": "9ecaec63e500d83c865fdc047a65dc44",
+        "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226112-namibia-wallpapers.jpg",
+        "description": "",
+        "tags": null
       },
       {
         "id": 2,
         "sourceType": "mediaspirit",
         "sourceId": "00aedb6e3178e8463de9b56ff3c23b61",
         "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226121-namibia-wallpapers.jpg",
-        "description": ""
+        "description": "",
+        "tags": null
+      },
+      {
+        "id": 1,
+        "sourceType": "mediaspirit",
+        "sourceId": "9ecaec63e500d83c865fdc047a65dc44",
+        "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226112-namibia-wallpapers.jpg",
+        "description": "",
+        "tags": null
+      },
+      {
+        "id": 2,
+        "sourceType": "mediaspirit",
+        "sourceId": "00aedb6e3178e8463de9b56ff3c23b61",
+        "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226121-namibia-wallpapers.jpg",
+        "description": "",
+        "tags": null
+      },
+      {
+        "id": 2,
+        "sourceType": "mediaspirit",
+        "sourceId": "00aedb6e3178e8463de9b56ff3c23b61",
+        "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.valerius.nl\/wordpress\/medium\/wp2226121-namibia-wallpapers.jpg",
+        "description": "",
+        "tags": null
       }
     ],
     "title": "VTB JSON VOORBEELD",
     "subTitle": "Family de Sauvage Nolting",
     "costPriceBeforeRounding": 0,
     "salesPriceBeforeRounding": 52.5,
-    "vtbObjectId": "8ykik6b9yp38o6e7vw3s2g",
+    "vtbObjectId": "95zsy3dagjmzleujqbo2q",
     "bookableDaysWarning": false,
     "hasNotCalculated": true,
     "totalDays": 11,
@@ -8102,10 +8536,10 @@
     "notifications": [
       
     ],
-    "pdfVtbId": 29,
+    "pdfVtbId": 45,
   "link_type": "order",
   "link_id": 195,
-  "ts": "2020-04-17 21:36:36",
+  "ts": "2020-04-30 17:59:59",
   "stats_pax": 2,
   "stats_status": "proposal",
   "stats_total_price": null
