@@ -1,6 +1,6 @@
 <!-- start cover page1 -->
 <div class="page">
-  <div class="page-inner">
+  <div class="page-inner landing-page">
     <header>
       <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/original/logo.png" />
     </header>
@@ -20,25 +20,20 @@
     </div>
     <!-- end cover image -->
     <div class="home-discover">
-      <div class="container display-flex">
-        <div class="home-logo">
-          <img src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/original/logo.png" />
-        </div>
-        <div class="home-family">
-          <p class="home-title">{{ itinerary.subTitle }}</p>
-          <p class="home-days">
-            {{ itinerary.totalDays - 1 }} Nights |
-            {{ itinerary.startDate | date }} -
-            {{ itinerary.endDate | date }}
-          </p>
-        </div>
-        <div class="home-discover-button">
-          <label class="popup_checkbox2 buttonUrl" for="destination">{{
+      <div class="home-family">
+        <p class="home-title">{{ itinerary.subTitle }}</p>
+        <p class="home-days">
+          {{ itinerary.totalDays - 1 }} Nights |
+          {{ itinerary.startDate | date }} -
+          {{ itinerary.endDate | date }}
+        </p>
+      </div>
+      <div class="home-discover-button">
+        <label class="popup_checkbox2 buttonUrl" for="destination">{{
                 itinerary.button_discover
                 ? itinerary.button_discover
                 : "Discover"
                 }}</label>
-        </div>
       </div>
     </div>
     <!-- <div class="contact-copy">
