@@ -28,13 +28,13 @@
           {{ itinerary.endDate | date }}
         </p>
       </div>
-      <div class="home-discover-button">
+      <!-- <div class="home-discover-button">
         <label class="popup_checkbox2 buttonUrl" for="destination">{{
                 itinerary.button_discover
                 ? itinerary.button_discover
                 : "Discover"
                 }}</label>
-      </div>
+      </div> -->
     </div>
     <!-- <div class="contact-copy">
           <div class="container">
@@ -159,6 +159,12 @@
 <div class="dynamic-pages overview-your-trip">
   <div class="page-inner">
     <div class="row">
+      <!-- <agm-map [latitude]="itinerary.lat" [longitude]="itinerary.lng" [zoom]="10">
+        <agm-direction [origin]="itinerary.origin" [destination]="itinerary.destination"
+          [renderOptions]="itinerary.renderOptions" [markerOptions]="itinerary.markerOptions"
+          [waypoints]="itinerary.waypoints" [travelMode]="'DRIVING'">
+        </agm-direction>
+      </agm-map> -->
       <h1 class="main-title">
         {{
             itinerary.titel_overview
@@ -226,6 +232,12 @@
         </ng-container>
       </div>
       <div class="overview-trip-section overview-map">
+        <!-- <agm-map [latitude]="itinerary.lat" [longitude]="itinerary.lng" [zoom]="10">
+          <agm-direction [origin]="itinerary.origin" [destination]="itinerary.destination"
+            [renderOptions]="itinerary.renderOptions" [markerOptions]="itinerary.markerOptions"
+            [waypoints]="itinerary.waypoints" [travelMode]="'DRIVING'">
+          </agm-direction>
+        </agm-map> -->
         <div class="overview-include">
           <h5>Included in trip</h5>
           {{ itinerary.include_trip_text }}
@@ -303,7 +315,8 @@
                          class="contact-image"
                          src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/sm/MARJA.jpg"
                          /> -->
-          <a class="buttonUrl" href="mailto:{{ itinerary.contactEmail }}">Contact me</a>
+          <!-- <a class="buttonUrl" href="mailto:{{ itinerary.contactEmail }}">Contact me</a> -->
+          <p style="text-align: center;">info@valerius.nl</p>
         </div>
         <div class="contact-inner-section">
           <div class="row">
@@ -323,25 +336,6 @@
             <h2>{{ itinerary.contactName }}</h2>
             <h3 [innerHTML]="itinerary.contactText"></h3>
           </div>
-          <!-- <div class="row">
-                         <ul class="contact-images">
-                            <li>
-                               <img
-                                  src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/original/contact-business.png"
-                                  />
-                            </li>
-                            <li>
-                               <img
-                                  src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/original/contact-vir.png"
-                                  />
-                            </li>
-                            <li>
-                               <img
-                                  src="https://s3-eu-west-1.amazonaws.com/media.valerius.nl/original/original/SGR-transparant.png"
-                                  />
-                            </li>
-                         </ul>
-                      </div> -->
         </div>
         <div class="contact-inner-section">
           <address>
