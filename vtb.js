@@ -236,6 +236,30 @@ const customTransforms = {
     
     return obj;
   },
+  'destinationImageFormatting': (obj, params) => {
+
+    obj.dst.segments.forEach((segment) => {
+
+      if(segment.typeId == 19) {
+
+        segment.elements.forEach((element) => {
+
+          if(element.unitId == 17) {
+
+            element.media.forEach((image) => {
+             
+             image.url = image.url.replace('medium', 'large');
+
+            });
+          }
+          
+        });
+      }
+    
+    });
+
+    return obj;
+  }
 };
 
 module.exports = customTransforms;

@@ -10,7 +10,8 @@
       {"function": "getdailyItinerary", "params": {}},
       {"function": "addIconChar", "params": {}},
       {"function": "coverImage", "params": {}},
-      {"function": "getBookedBy", "params": {}}
+      {"function": "getBookedBy", "params": {}},
+      {"function": "destinationImageFormatting", "params": {}}
     ],
     "startWithEmptyObject": false
   }
