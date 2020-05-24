@@ -64,7 +64,7 @@ const customTransforms = {
     obj.dst.segments.forEach((segment) => {
       if(segment.typeId == 19) {
         segment.elements.forEach((element) => {
-          if(element.unitId == 17) {
+          if(element.unitId == 17 && element.additionalText !== undefined) {
             if(element.additionalText.includes('</h1>') && element.additionalText.includes('</h2>') && element.additionalText.includes('</h3>')) {
               obj.dst.destinationH1 = element.additionalText.match(/<h1>(.*?)<\/h1>/)[1];
               obj.dst.destinationH2 = element.additionalText.match(/<h2>(.*?)<\/h2>/)[1];
@@ -92,7 +92,7 @@ const customTransforms = {
             // content = element.additionalText.match(/<\/h2>(.*?)<h2>/g);
             // content = element.additionalText.match(/<\/h3>(.*?)<\/body>/g);
 
-            contents.push(element.additionalText);
+            contents.push(element.additionalText ? element.additionalText : '');
 
           }
         });
