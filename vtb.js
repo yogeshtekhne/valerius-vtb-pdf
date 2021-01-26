@@ -223,17 +223,28 @@ const customTransforms = {
   },
   'getBookedBy':(obj, params) => {
 
-    obj.dst.contactName = obj.dst.contactImage = obj.dst.contactEmail = obj.dst.contactText = '';
+    obj.dst.contactName = obj.dst.contactImage = obj.dst.contactEmail = obj.dst.contactText = obj.dst.contactIntro = obj.dst.contactFunction = '';
 
     if (!obj.dst.TSOrder.bookedByInfo) return obj;
 
-    let contactSignature = obj.dst.TSOrder.bookedByInfo.signature;
+    if(obj.dst.TSOrder.bookedByInfo.name || obj.dst.TSOrder.bookedByInfo.surname) {
+      obj.dst.contactName = obj.dst.TSOrder.bookedByInfo.name + ' ' + obj.dst.TSOrder.bookedByInfo.surname;
+    }
+  
+    if(obj.dst.TSOrder.bookedByInfo.signature) {
 
-    obj.dst.contactName = obj.dst.TSOrder.bookedByInfo.name + ' ' + obj.dst.TSOrder.bookedByInfo.surname;
-    obj.dst.contactImage = contactSignature.match(/<image>(.*?)<\/image>/)[1];
-    obj.dst.contactEmail = contactSignature.match(/<contact>(.*?)<\/contact>/)[1];
-    obj.dst.contactText = contactSignature.match(/<text>(.*?)<\/text>/)[1];
-    
+      let contactSignature = obj.dst.TSOrder.bookedByInfo.signature;
+      
+      console.log('Hello WOrld', contactSignature.match(/<text>(.*?)<\/text>/));
+
+      obj.dst.contactIntro = contactSignature.includes('<intro_text>')?contactSignature.match(/<intro_text>(.*?)<\/intro_text>/)!==null?contactSignature.match(/<intro_text>(.*?)<\/intro_text>/)[1]:'':'';
+      obj.dst.contactFunction = contactSignature.includes('<function>')?contactSignature.match(/<function>(.*?)<\/function>/)!==null?contactSignature.match(/<function>(.*?)<\/function>/)[1]:'':'';
+      obj.dst.contactImage = contactSignature.includes('<image>')?contactSignature.match(/<image>(.*?)<\/image>/)!==null?contactSignature.match(/<image>(.*?)<\/image>/)[1]:'':'';
+      obj.dst.contactEmail = contactSignature.includes('<contact>')?contactSignature.match(/<contact>(.*?)<\/contact>/)!==null?contactSignature.match(/<contact>(.*?)<\/contact>/)[1]:'':'';
+      obj.dst.contactText = contactSignature.includes('<text>')?contactSignature.match(/<text>(.*?)<\/text>/)!==null?contactSignature.match(/<text>(.*?)<\/text>/)[1]:'':'';
+
+    }
+
     return obj;
   },
   'destinationImageFormatting': (obj, params) => {

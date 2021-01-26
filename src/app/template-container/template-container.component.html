@@ -320,7 +320,8 @@
         </div>
         <div class="contact-inner-section">
           <div class="row">
-            <h2>A Matter of taste</h2>
+            <div class="row" [innerHTML]="itinerary.contactIntro">
+            <!-- <h2>A Matter of taste</h2>
             <p>
               Valerius Travel is an all-round tour operator in Amsterdam
               specialized in tailor-made travel. We are an enthusiastic team
@@ -330,11 +331,14 @@
               independent agent we are able to give good advice and find you
               the best suppliers, offering an excellent balance between
               quality and price.
-            </p>
+            </p> -->
           </div>
           <div class="row">
-            <h2>{{ itinerary.contactName }}</h2>
-            <h3 [innerHTML]="itinerary.contactText"></h3>
+             <div>
+                <h2 [innerHTML]="itinerary.contactName"></h2>
+                <h3 [innerHTML]="itinerary.contactFunction"></h3>
+                <h3 [innerHTML]="itinerary.contactText"></h3>
+              </div>
           </div>
         </div>
         <div class="contact-inner-section">
