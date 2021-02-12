@@ -1432,7 +1432,7 @@ header img {
 .toggle[type="checkbox"] {
   display: none;
 }
-
+/* 
 .lbl-toggle {
   cursor: pointer;
   transition: all 0.25s ease-out;
@@ -1451,7 +1451,7 @@ header img {
   height: 21px;
   transform: rotate(180deg) translateX(-3px);
   margin-left: 10px;
-}
+} */
 
 .collapsible-content {
   /* max-height: 0px;
