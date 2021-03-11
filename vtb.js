@@ -235,14 +235,14 @@ const customTransforms = {
 
       let contactSignature = obj.dst.TSOrder.bookedByInfo.signature;
       
-      console.log('Hello WOrld', contactSignature.match(/<text>(.*?)<\/text>/));
+      //console.log('Hello WOrld', contactSignature.match(/<text>(.*?)<\/text>/));
 
-      obj.dst.contactIntro = contactSignature.includes('<intro_text>')?contactSignature.match(/<intro_text>(.*?)<\/intro_text>/)!==null?contactSignature.match(/<intro_text>(.*?)<\/intro_text>/)[1]:'':'';
-      obj.dst.contactFunction = contactSignature.includes('<function>')?contactSignature.match(/<function>(.*?)<\/function>/)!==null?contactSignature.match(/<function>(.*?)<\/function>/)[1]:'':'';
-      obj.dst.contactImage = contactSignature.includes('<image>')?contactSignature.match(/<image>(.*?)<\/image>/)!==null?contactSignature.match(/<image>(.*?)<\/image>/)[1]:'':'';
-      obj.dst.contactEmail = contactSignature.includes('<contact>')?contactSignature.match(/<contact>(.*?)<\/contact>/)!==null?contactSignature.match(/<contact>(.*?)<\/contact>/)[1]:'':'';
-      obj.dst.contactText = contactSignature.includes('<text>')?contactSignature.match(/<text>(.*?)<\/text>/)!==null?contactSignature.match(/<text>(.*?)<\/text>/)[1]:'':'';
-
+      obj.dst.contactIntro = contactSignature.includes('<intro_text>')?contactSignature.match(/<intro_text>(.|\n)*?<\/intro_text>/)!==null?(contactSignature.match(/<intro_text>(.|\n)*?<\/intro_text>/)[0]).replace("<intro_text>", "").replace("</intro_text>", ""):'':'';
+      obj.dst.contactFunction = contactSignature.includes('<function>')?contactSignature.match(/<function>(.|\n)*?<\/function>/)!==null?(contactSignature.match(/<function>(.|\n)*?<\/function>/)[0]).replace("<function>", "").replace("</function>", ""):'':'';
+      obj.dst.contactImage = contactSignature.includes('<image>')?contactSignature.match(/<image>(.|\n)*?<\/image>/)!==null?(contactSignature.match(/<image>(.|\n)*?<\/image>/)[0]).replace("<image>", "").replace("</image>", ""):'':'';
+      obj.dst.contactEmail = contactSignature.includes('<contact>')?contactSignature.match(/<contact>(.|\n)*?<\/contact>/)!==null?(contactSignature.match(/<contact>(.|\n)*?<\/contact>/)[0]).replace("<contact>", "").replace("</contact>", ""):'':'';
+      obj.dst.contactText = contactSignature.includes('<text>')?contactSignature.match(/<text>(.|\n)*?<\/text>/)!==null?(contactSignature.match(/<text>(.|\n)*?<\/text>/)[0]).replace("<text>", "").replace("</text>", ""):'':'';
+    
     }
 
     return obj;
